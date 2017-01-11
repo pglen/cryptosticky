@@ -1,0 +1,262 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>CryptoSticky</title>
+</head>
+<body>
+<br>
+<div style="text-align: center;">
+<div style="text-align: center;"></div>
+<table
+ style="margin-left: auto; margin-right: auto; width: 980px; text-align: left;"
+ border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="text-align: center; vertical-align: top;">
+      <div style="text-align: center;"> </div>
+      <div style="text-align: center; font-weight: bold;">
+      <div style="text-align: center;"><img alt="" src="header.jpg"
+ style="width: 980px; height: 159px;"><br>
+      <table
+ style="text-align: left; width: 90%; margin-left: auto; margin-right: auto;"
+ border="0" cellpadding="2" cellspacing="2">
+        <tbody>
+          <tr>
+            <td style="text-align: center; vertical-align: top;"><font
+ size="+1">[ <a href="index.html">Home</a>
+] [ <a href="main.html">Main Panel </a>] [ <a href="create.html">Creating
+a
+Memo</a> ] [ <a href="alarm.html">Setting an Alarm</a> ] [ <a
+ href="memo.html">Editing a Memo</a> ] [ <a href="setup.html">Setting
+Up CryptoSticky</a> ]<br>
+[ <a href="network.html">Network Memo</a> ] [ <a href="advanced.html">Advanced
+Usage</a> ] </font><font size="+1">[ <a href="backup.html">Backup
+/Restore</a> ] </font><font size="+1">[ <a href="encrypt.html">Encryption</a>
+] [ <a href="voice.html">Voice Memo</a> ] [ <a href="sticky.html">The
+Sticky</a>
+]</font> <font size="-1"> </font></td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <br>
+&nbsp; <font style="font-weight: bold;" size="+2">Networking
+CryptoSticky</font><br>
+      <br>
+      </div>
+      <div style="text-align: justify;">
+      <div style="text-align: justify;">&nbsp;&nbsp; CryptoSticky can
+be used
+to transmit a sticky (or memo) to any computer on the network. This is
+very useful facility to make effortless sticky sharing between
+computers, for example a desktop
+and a laptop. With this advanced facility, CryptoSticky can also be
+deployed as an in-house (corporate)
+messaging system. No configuration is
+needed, thanks to modern networking technologies, CryptoSticky
+installations will see each other across the network automatically. The
+only requirement is that the machines need to be on the same
+sub-network. (This is automatically true with most networks)<br>
+      </div>
+      <br>
+      </div>
+      <img style="width: 601px; height: 267px;" alt="" src="network.jpg"><br>
+      <br>
+      <div style="text-align: left;">
+      <div style="text-align: justify;"><span
+ style="font-weight: normal;"></span><span style="font-weight: normal;"></span>&nbsp;&nbsp;&nbsp;
+When
+someone
+broadcasts
+a
+memo,
+CryptoSticky
+sends
+it to every active work station.
+Workstations that are allowed to receive memos from the sender, will
+save the network memo, the same way as they do any other memo. If the
+memo exists on the target machine, is is compared to the pre-existing
+version. If they are identical, the new memo is silently discarded. It
+they are different, CryptoSticky will create an new memo with a number
+suffix. "Memo for Steve" becomes "Memo for Steve#1". The the suffix
+exists, it is incremented, so "Memo for Steve#1" becomes "Memo for
+Steve#2".<br>
+      <br>
+      </div>
+      <div style="text-align: center;">
+      <table style="text-align: left; width: 100%;" border="0"
+ cellpadding="6" cellspacing="2">
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;"><img
+ style="width: 508px; height: 564px;" alt="" src="broadcast.jpg"><br>
+            </td>
+            <td style="vertical-align: top; text-align: justify;">&nbsp;&nbsp;
+On
+the
+screen
+shot
+to
+the
+left, the right click menu contains&nbsp; the
+command 'Broad Cast Memo'. Clicking on this, will broadcast the
+selected
+memo throwout the network. Only stations that are configured to receive
+it will receive this particular memo, and only stations are set to send
+it to, will receive this particular memo.<br>
+            <br>
+&nbsp; One also has the option to 'Broadcast All memos'. This sends out
+all memos to all workstations. New memos will appear on the target
+workstations, memos that exist on the target workstations will be left
+unchanged, and memos that changed will be displayed under a new name
+with the serialization algorithm described above. <br>
+            <br>
+&nbsp;&nbsp; Broadcasting all memos is a safe option with minimal
+network
+traffic, as the memos are carefully checked for change, and the
+conflict resolution does not modify or erase previous memos in any way.
+            <br>
+            <br>
+&nbsp; Broadcasting all memos is also useful to synchronize memos
+across
+workstations. For example connecting a laptop to the network, starting
+CryptoSticky, and broadcasting all memos will effectively synchronize
+the memos from the laptop to the desktop. Broadcast is unidirectional.
+When broadcasting from one machine, only memos that exist on that
+machine are sent. Memos that exist on the other machine remain private
+to that machine, as no facility is implemented for transmission in the
+other direction. To synchronize bi-directionally, execute broadcast
+from
+the other machine as well.<br>
+            <br>
+&nbsp;&nbsp; One can also
+selectively send a single sticky to workstation / user by selecting an
+entry from 'Send Network Sticky to'. <br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="text-align: justify;">&nbsp; All currently active
+CryptoSticky
+network stations are listed under this menu.&nbsp;&nbsp; <br>
+      <br>
+&nbsp; Safety and security is always a concern with networking. Here is
+the precautions we took: 1.) Broadcast can only be done withing the
+boundary of the sub-network. (This is actually a feature of the
+network itself) 2.) CryptoSticky will not initiate broadcasts without
+user intervention. 3.) All workstations can be configured to allow send
+or allow receive to any one of other workstations. 4.) CryptoSticky
+obeys the
+system firewall. While this is the feature of the network as well,
+network transmission to / from any workstation can be disabled by
+answering "No" to the "Allow Exceptions" question in the firewall
+prompt. 5.) Memos are only be broadcasts by the user's request, remote
+stations cannot request memo broadcast.<br>
+      <br>
+      <span style="font-weight: bold;">Setting up networking:<br>
+      <br>
+      </span></div>
+      </div>
+      <table style="text-align: left; width: 100%;" border="0"
+ cellpadding="6" cellspacing="2">
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+            <div style="text-align: justify;">&nbsp; CryptoSticky does
+not require any setup on the network to
+operate. (Aside from connecting the computer&nbsp; to the network)<br>
+            <br>
+&nbsp; However, one can control which workstation is allowed to send
+to this
+workstation, and which workstations this installation is allowed to
+send to. <br>
+            <br>
+&nbsp; In the
+'Configure' Dialog, click on the 'Show Net Peers' button and the Dialog
+to the right displays. <br>
+            <br>
+&nbsp;&nbsp;&nbsp; One can freely check / uncheck any Send or Recv
+checkbox, and
+the
+system will not allow traffic&nbsp; to that workstation </div>
+            </td>
+            <td style="vertical-align: top;"><img
+ style="width: 695px; height: 335px;" alt="" src="netconfig.jpg"></td>
+          </tr>
+        </tbody>
+      </table>
+&nbsp;&nbsp;&nbsp; in that particular
+direction. The local machine is listed in the network peers dialog,
+checking or un-checking the local machine configuration details has no
+meaning, as the network sticky is not broadcast to the local machine;
+The refresh button will re-load the current list of resolved
+workstations, it will not initiate any name resolution request, and
+will not initiate any result on network traffic.<br>
+      <br>
+      <span style="font-weight: bold;">Technical background:<br>
+      <br>
+      </span>
+      <table style="text-align: left; width: 100%;" cellpadding="6"
+ cellspacing="2">
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+            <div style="text-align: justify;">&nbsp;&nbsp; CryptoSticky
+networking works on
+a proprietary machine resolution protocol implemented on top of TCP/IP.
+When CryptoSticky starts on a new machine on the network, it announces
+itself to the CryptoSticky peers, and requests all peers to acknowledge
+the announcement with their network address. The protocol itself is
+simple, fast, with virtually no network traffic. <br>
+            <br>
+&nbsp;&nbsp; If in your particular
+environment,&nbsp; the visibility of a&nbsp; network name and use name
+is not
+desired,
+disable port 2000 and port 2001. <br>
+            <br>
+&nbsp;&nbsp; If in your particular
+setting, the transmission of the memos&nbsp; is not desirable,&nbsp;
+disable port 2002. <br>
+            <br>
+&nbsp; If NO networking functionality is
+preferable, disable it by answering "No" to the "Allow Exceptions"
+question in the firewall prompt.<br>
+            <br>
+            </div>
+            </td>
+            <td style="vertical-align: top;"><img
+ style="width: 437px; height: 314px;" alt="" src="firewall.jpg"><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <div style="text-align: justify;">&nbsp;&nbsp;&nbsp; &nbsp; If
+you want to receive memos, but&nbsp; do not want&nbsp; the memos to
+appear automatically on your desktop, un-check 'Listen for
+remote memos' on the main CryptoSticky Panel. If you do not want any
+sound notifications, un-check the&nbsp; 'Enable Network Sticky Notify
+Sound' from the configuration panel.&nbsp; If you do not want any beep
+notifications, un-check the&nbsp; 'Enable Network Sticky Notify Beep'
+from the configuration panel.<br>
+      <br>
+      </div>
+      <br>
+      <div style="text-align: center;">[<a href="index.html">Back to
+Home Page</a>]<span style="font-weight: normal;"></span><span
+ style="font-weight: normal;"></span><br>
+      </div>
+      </div>
+      <hr style="width: 100%; height: 2px;">Copyright &copy; by
+RobotMonkeySoftware </td>
+    </tr>
+  </tbody>
+</table>
+&nbsp;<br>
+<br>
+</div>
+</body>
+</html>

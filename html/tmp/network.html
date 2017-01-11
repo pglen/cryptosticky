@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Yellow Memo Main Page</title>
+</head>
+<body>
+<br>
+<div style="text-align: center;">
+<div style="text-align: center;"></div>
+<table
+ style="margin-left: auto; margin-right: auto; width: 980px; text-align: left;"
+ border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="text-align: center; vertical-align: top;">
+      <div style="text-align: center;"> </div>
+      <div style="text-align: center; font-weight: bold;">
+      <div style="text-align: center;"><img alt="" src="header.jpg"
+ style="width: 950px; height: 154px;"><br>
+      <table
+ style="text-align: left; width: 90%; margin-left: auto; margin-right: auto;"
+ border="0" cellpadding="2" cellspacing="2">
+        <tbody>
+          <tr>
+            <td style="text-align: center; vertical-align: top;"><font
+ size="+1">[ <a href="index.html">Home</a>
+] [ <a href="main.html">Main Panel </a>] [ <a href="create.html">Creating
+a Memo</a> ] [ <a href="alarm.html">Setting an Alarm</a> ] [ <a
+ href="memo.html">Editing a Memo</a> ] [ <a href="setup.html">Setting
+Up CryptoSticky</a> ]<br>
+[ <a href="network.html">Network Memo</a> ] [ <a href="advanced.html">Advanced
+Usage</a> ] [ <a href="future.htm">Future
+Development</a> ] <br>
+            </font> <font size="-1"> </font></td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <br>
+&nbsp; <font style="font-weight: normal;" size="+3">Networking
+CryptoSticky</font><br>
+      <br>
+      </div>
+      <div style="text-align: justify;">&nbsp; CryptoSticky can be used
+as an in-house or corporate messaging system. Simply configuring
+multiple CryptoSticky
+installations to point to the same network share. This will allow
+multiple
+users and computers to share notes. The notes appear on the other
+machines within
+the timer refresh cycle. (default: one minute)<br>
+      <br>
+&nbsp; When a new note is created in the shared directory, it pops up
+on all the running CryptoSticky computers pointing to this share. When
+any of the notes
+change in the shared directory, that note will pop up on every
+subsribing user's
+screen. If that note is already showing, the note is refreshed,
+displaying its new content. If a note is deleted, it will disappear
+from the screen on all the subscribing machines.<br>
+      </div>
+      <div style="text-align: left;"><br>
+      </div>
+      <img style="width: 653px; height: 214px;" alt="" src="network.jpg"><br>
+      <br>
+      <div style="text-align: left;"><span style="font-weight: normal;"></span><span
+ style="font-weight: normal;"></span>&nbsp;&nbsp;&nbsp; When someone
+deletes a memo, CryptoSticky saves the
+memo into the
+'Deleted' folder. By default, the 'Deleted' folder is not visible. One
+can view it by checking the 'Enable Deleted' check box on the main
+panel. The deleted Memo can still be used, and it is accessible under
+the same name as its original, with the small exception of the
+'Deleted'
+string is prepended to its memo path. To restore a memo, one may use
+the 'Copy Memo'
+and the Paste facility and re-create the memo under any arbitrary
+heading.<br>
+      <br>
+&nbsp;&nbsp; CryptoSticky works with any standard Windows share,
+and any UNIX Samba
+(SMB) share. One can even configure CryptoSticky to share the Memo
+directory
+on&nbsp; the local machine.<br>
+      <div style="text-align: center;"><img
+ style="width: 446px; height: 227px;" alt="" src="network2.jpg"><br>
+      </div>
+Setting up networking:<br>
+      <br>
+&nbsp;&nbsp; In the setup dialog, the data subsection can be configured
+to any accessible network share. The browse button will open up a
+directory selection dialog to specify a local or network directory. The
+read button will read the contents of the currently selected directory,
+updating the main panel's tree control inanimately.<br>
+      <br>
+&nbsp; While CryptoSticky itself does not
+perform any access control, the network itself can (and should) control
+access to
+Memos. To read a memo, the user needs a read and scan access, to write,
+the user needs read/write/scan access, and to delete, the user needs
+delete
+access.<br>
+      <br>
+&nbsp;&nbsp;&nbsp;&nbsp; The refresh time can be set up to any numeric
+value. The refresh time of zero means the refresh subsystem is turned
+off. If one does not want the distraction of the network memo pop ups,
+uncheck the 'Enable Auto Popup' checkbox. The refresh time defaults to
+one minute.<br>
+      <br>
+      <div style="text-align: center;"><img
+ style="width: 769px; height: 83px;" alt="" src="refresh.jpg"><br>
+      </div>
+      <br>
+Technical background:<br>
+      <br>
+&nbsp;&nbsp; CryptoSticky networking works on Windows shares by
+comparing the local content modify dates with the remote content modify
+dates. If
+there is a difference, the program will take the appropriate action,
+like showing, refreshing or hiding a memo. The compare takes place
+every timer cycle. The timer cycle can be set on the setup screen.<br>
+      <div style="text-align: center;">[<a href="index.html">Back to
+Home Page</a>]<span style="font-weight: normal;"></span><span
+ style="font-weight: normal;"></span><br>
+      </div>
+      </div>
+      <hr style="width: 100%; height: 2px;">Copyright &copy; by Peter
+Glen<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+&nbsp;<br>
+<br>
+</div>
+</body>
+</html>

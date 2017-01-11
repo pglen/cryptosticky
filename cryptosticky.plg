@@ -1,0 +1,565 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CryptoSticky - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/CYellowMemo.res" /d "_DEBUG" /d "_AFXDLL" "C:\develop4\cryptosticky\work\CYellowMemo.rc"" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPADA1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../../common/work2/" /I "C:\Program Files\Microsoft Speech SDK 5.1\Include" /D "_DEBUG" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "VATI_EXTENSIONS" /D _WIN32_WINNT=0x401 /FR"Debug/" /Fp"Debug/cryptosticky.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop4\cryptosticky\work\datalog.cpp"
+"C:\develop4\common\work2\dsp.cpp"
+"C:\develop4\common\work2\misc.cpp"
+"C:\develop4\common\work2\multimon.cpp"
+"C:\develop4\common\work2\mxpad.cpp"
+"C:\develop4\cryptosticky\work\about.cpp"
+"C:\develop4\cryptosticky\work\Alarm.cpp"
+"C:\develop4\cryptosticky\work\ChangeMem.cpp"
+"C:\develop4\cryptosticky\work\Clicker.cpp"
+"C:\develop4\cryptosticky\work\ColRect.cpp"
+"C:\develop4\cryptosticky\work\CYellowMemo.cpp"
+"C:\develop4\cryptosticky\work\DlgGetPath.cpp"
+"C:\develop4\cryptosticky\work\FakeWin.cpp"
+"C:\develop4\cryptosticky\work\FileDialogST.cpp"
+"C:\develop4\cryptosticky\work\GetDirName.cpp"
+"C:\develop4\cryptosticky\work\gotoline.cpp"
+"C:\develop4\common\work2\GrayDlg.cpp"
+"C:\develop4\common\work2\label.cpp"
+"C:\develop4\cryptosticky\work\LevenStein.cpp"
+"C:\develop4\cryptosticky\work\LISTVWEX.CPP"
+"C:\develop4\cryptosticky\work\LogDlg.cpp"
+"C:\develop4\cryptosticky\work\MemoConf.cpp"
+"C:\develop4\cryptosticky\work\MemoSupp.cpp"
+"C:\develop4\cryptosticky\work\mouse.cpp"
+"C:\develop4\cryptosticky\work\MsgBox.cpp"
+"C:\develop4\cryptosticky\work\NetPeerDlg.cpp"
+"C:\develop4\cryptosticky\work\Pass.cpp"
+"C:\develop4\cryptosticky\work\PGedit.cpp"
+"C:\develop4\common\work\PlaySound.cpp"
+"C:\develop4\common\work\Popup.cpp"
+"C:\develop4\common\work\RecordSound.cpp"
+"C:\develop4\cryptosticky\work\Register.cpp"
+"C:\develop4\cryptosticky\work\Resolv.cpp"
+"C:\develop4\cryptosticky\work\ScribEdit.cpp"
+"C:\develop4\cryptosticky\work\Setup.cpp"
+"C:\develop4\cryptosticky\work\SetupTab.cpp"
+"C:\develop4\common\work\SimpleGrid.cpp"
+"C:\develop4\cryptosticky\work\SndBoard.cpp"
+"C:\develop4\cryptosticky\work\Speak.cpp"
+"C:\develop4\common\work\Support.cpp"
+"C:\develop4\cryptosticky\work\test.cpp"
+"C:\develop4\common\work\TextMode.cpp"
+"C:\develop4\cryptosticky\work\TransDlg.cpp"
+"C:\develop4\cryptosticky\work\TrayIcon.cpp"
+"C:\develop4\common\work\waveEdit.cpp"
+"C:\develop4\cryptosticky\work\xArchive.cpp"
+"C:\develop4\cryptosticky\work\xButton.cpp"
+"C:\develop4\cryptosticky\work\XntMask.cpp"
+"C:\develop4\common\work\xPtrArr.cpp"
+"C:\develop4\common\work\XrayM.cpp"
+"C:\develop4\common\work\xRect.cpp"
+"C:\develop4\common\work\xTargetButton.cpp"
+"C:\develop4\cryptosticky\work\Yellowdlg.cpp"
+"C:\develop4\cryptosticky\work\ymemo.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPADA1.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPADA2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../../common/work2/" /I "C:\Program Files\Microsoft Speech SDK 5.1\Include" /D "_DEBUG" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "VATI_EXTENSIONS" /D _WIN32_WINNT=0x401 /FR"Debug/" /Fp"Debug/cryptosticky.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop4\cryptosticky\work\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPADA2.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPADA3.tmp" with contents
+[
+winmm.lib wsock32.lib rpcrt4.lib Mpr.lib msimg32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/cryptosticky.pdb" /debug /machine:I386 /out:"Debug/cryptosticky.exe" /pdbtype:sept /libpath:"C:\Program Files\Microsoft Speech SDK 5.1\Lib\i386" 
+.\Debug\datalog.obj
+.\Debug\dsp.obj
+.\Debug\misc.obj
+.\Debug\multimon.obj
+.\Debug\mxpad.obj
+.\Debug\about.obj
+.\Debug\Alarm.obj
+.\Debug\ChangeMem.obj
+.\Debug\Clicker.obj
+.\Debug\ColRect.obj
+.\Debug\CYellowMemo.obj
+.\Debug\DlgGetPath.obj
+.\Debug\FakeWin.obj
+.\Debug\FileDialogST.obj
+.\Debug\GetDirName.obj
+.\Debug\gotoline.obj
+.\Debug\GrayDlg.obj
+.\Debug\label.obj
+.\Debug\LevenStein.obj
+.\Debug\LISTVWEX.OBJ
+.\Debug\LogDlg.obj
+.\Debug\MemoConf.obj
+.\Debug\MemoSupp.obj
+.\Debug\mouse.obj
+.\Debug\MsgBox.obj
+.\Debug\NetPeerDlg.obj
+.\Debug\Pass.obj
+.\Debug\PGedit.obj
+.\Debug\PlaySound.obj
+.\Debug\Popup.obj
+.\Debug\RecordSound.obj
+.\Debug\Register.obj
+.\Debug\Resolv.obj
+.\Debug\ScribEdit.obj
+.\Debug\Setup.obj
+.\Debug\SetupTab.obj
+.\Debug\SimpleGrid.obj
+.\Debug\SndBoard.obj
+.\Debug\Speak.obj
+.\Debug\StdAfx.obj
+.\Debug\Support.obj
+.\Debug\test.obj
+.\Debug\TextMode.obj
+.\Debug\TransDlg.obj
+.\Debug\TrayIcon.obj
+.\Debug\waveEdit.obj
+.\Debug\xArchive.obj
+.\Debug\xButton.obj
+.\Debug\XntMask.obj
+.\Debug\xPtrArr.obj
+.\Debug\XrayM.obj
+.\Debug\xRect.obj
+.\Debug\xTargetButton.obj
+.\Debug\Yellowdlg.obj
+.\Debug\ymemo.obj
+.\Debug\CYellowMemo.res
+]
+Creating command line "link.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPADA3.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+datalog.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+dsp.cpp
+fatal error C1083: Cannot open source file: 'C:\develop4\common\work2\dsp.cpp': No such file or directory
+misc.cpp
+fatal error C1083: Cannot open source file: 'C:\develop4\common\work2\misc.cpp': No such file or directory
+multimon.cpp
+fatal error C1083: Cannot open source file: 'C:\develop4\common\work2\multimon.cpp': No such file or directory
+mxpad.cpp
+fatal error C1083: Cannot open source file: 'C:\develop4\common\work2\mxpad.cpp': No such file or directory
+about.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+Alarm.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+ChangeMem.cpp
+C:\develop4\cryptosticky\work\ChangeMem.cpp(7) : fatal error C1083: Cannot open include file: 'mxpad.h': No such file or directory
+Clicker.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+ColRect.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+CYellowMemo.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+DlgGetPath.cpp
+C:\develop4\cryptosticky\work\DlgGetPath.cpp(30) : fatal error C1083: Cannot open include file: 'mxpad.h': No such file or directory
+FakeWin.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+FileDialogST.cpp
+C:\develop4\cryptosticky\work\FileDialogST.cpp(28) : fatal error C1083: Cannot open include file: 'mxpad.h': No such file or directory
+GetDirName.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+gotoline.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+GrayDlg.cpp
+fatal error C1083: Cannot open source file: 'C:\develop4\common\work2\GrayDlg.cpp': No such file or directory
+label.cpp
+fatal error C1083: Cannot open source file: 'C:\develop4\common\work2\label.cpp': No such file or directory
+LevenStein.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+LISTVWEX.CPP
+C:\develop4\cryptosticky\work\LISTVWEX.CPP(15) : fatal error C1083: Cannot open include file: 'mxpad.h': No such file or directory
+Generating Code...
+Compiling...
+LogDlg.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+MemoConf.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+MemoSupp.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+mouse.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+MsgBox.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+NetPeerDlg.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+Pass.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+PGedit.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+PlaySound.cpp
+C:\develop4\common\work\PlaySound.cpp(303) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [32]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\PlaySound.cpp(380) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [41]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\PlaySound.cpp(651) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [34]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\PlaySound.cpp(674) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [32]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\PlaySound.cpp(698) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [45]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\PlaySound.cpp(760) : error C2664: 'UnicodeToAnsi' : cannot convert parameter 1 from 'class CString' to 'const unsigned short *'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\develop4\common\work\PlaySound.cpp(770) : error C2664: 'UnicodeToAnsi' : cannot convert parameter 1 from 'class CString' to 'const unsigned short *'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\develop4\common\work\PlaySound.cpp(821) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [25]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\PlaySound.cpp(823) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [5]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\PlaySound.cpp(826) : error C2664: 'MessageBoxA' : cannot convert parameter 3 from 'unsigned short [11]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+Popup.cpp
+RecordSound.cpp
+C:\develop4\common\work\RecordSound.cpp(150) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [45]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\RecordSound.cpp(319) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [27]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\RecordSound.cpp(324) : error C2664: 'MessageBoxA' : cannot convert parameter 3 from 'unsigned short [13]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+Register.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+Resolv.cpp
+C:\develop4\cryptosticky\work\Resolv.cpp(26) : fatal error C1083: Cannot open include file: 'mxpad.h': No such file or directory
+ScribEdit.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+Setup.cpp
+C:\develop4\cryptosticky\work\Setup.cpp(27) : fatal error C1083: Cannot open include file: 'mxpad.h': No such file or directory
+SetupTab.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+SimpleGrid.cpp
+C:\develop4\common\work\SimpleGrid.cpp(752) : error C2664: 'int __thiscall CDC::DrawTextA(const char *,int,struct tagRECT *,unsigned int)' : cannot convert parameter 1 from 'unsigned short [2]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\SimpleGrid.cpp(881) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [21]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\SimpleGrid.cpp(891) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [13]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\SimpleGrid.cpp(1125) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [15]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\SimpleGrid.cpp(1171) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [18]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\SimpleGrid.cpp(1186) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [24]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\SimpleGrid.cpp(1262) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [25]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\SimpleGrid.cpp(1325) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [26]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+SndBoard.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+Speak.cpp
+C:\develop4\cryptosticky\work\Speak.cpp(7) : fatal error C1083: Cannot open include file: 'mxpad.h': No such file or directory
+Support.cpp
+C:\develop4\common\work\Support.cpp(170) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [12]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(180) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [12]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(183) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [3]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(187) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [38]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(191) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [44]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(195) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [43]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(199) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [24]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(204) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [29]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(231) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [37]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(235) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [38]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(239) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [44]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(243) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [43]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(247) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [29]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(373) : error C2065: '_tdupenv_s' : undeclared identifier
+C:\develop4\common\work\Support.cpp(375) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [21]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(408) : error C2665: 'AfxMessageBox' : none of the 2 overloads can convert parameter 1 from type 'unsigned short [61]'
+C:\develop4\common\work\Support.cpp(416) : error C2664: 'GetEnvStr' : cannot convert parameter 1 from 'unsigned short [16]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(428) : error C2665: 'AfxMessageBox' : none of the 2 overloads can convert parameter 1 from type 'unsigned short [58]'
+C:\develop4\common\work\Support.cpp(479) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [37]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(911) : error C2065: '_tsplitpath_s' : undeclared identifier
+C:\develop4\common\work\Support.cpp(930) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [15]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(941) : error C2664: 'ShellExecuteA' : cannot convert parameter 2 from 'unsigned short [5]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(1213) : error C2065: 'strcat_s' : undeclared identifier
+C:\develop4\common\work\Support.cpp(1308) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [23]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(1322) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [16]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(1328) : error C2664: 'AfxTrace' : cannot convert parameter 1 from 'unsigned short [16]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(1333) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [11]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(1349) : error C2065: '_vsntprintf_s' : undeclared identifier
+C:\develop4\common\work\Support.cpp(1378) : error C2664: 'GetEnvStr' : cannot convert parameter 1 from 'unsigned short [16]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(1392) : error C2664: 'GetEnvStr' : cannot convert parameter 1 from 'unsigned short [5]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(1399) : error C2665: 'AfxMessageBox' : none of the 2 overloads can convert parameter 1 from type 'unsigned short [24]'
+C:\develop4\common\work\Support.cpp(1441) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [26]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(1452) : error C2665: 'AfxMessageBox' : none of the 2 overloads can convert parameter 1 from type 'unsigned short [61]'
+C:\develop4\common\work\Support.cpp(1469) : error C2664: 'GetEnvironmentVariableA' : cannot convert parameter 1 from 'unsigned short [5]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(1472) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [30]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(1754) : error C2664: 'int __thiscall CString::Find(char,int) const' : cannot convert parameter 1 from 'unsigned short [2]' to 'char'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(1850) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [37]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2022) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [12]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2227) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [52]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2233) : error C2664: '_findfirst' : cannot convert parameter 1 from 'unsigned short [4]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2244) : error C2664: '_tcsicmp' : cannot convert parameter 2 from 'unsigned short [4]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2245) : error C2664: '_tcsicmp' : cannot convert parameter 2 from 'unsigned short [4]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2246) : error C2664: '_tcsicmp' : cannot convert parameter 2 from 'unsigned short [4]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2247) : error C2664: '_tcsicmp' : cannot convert parameter 2 from 'unsigned short [4]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2254) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [16]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2297) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [52]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2306) : error C2664: '_findfirst' : cannot convert parameter 1 from 'unsigned short [4]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2317) : error C2664: '_tcsicmp' : cannot convert parameter 2 from 'unsigned short [4]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2318) : error C2664: '_tcsicmp' : cannot convert parameter 2 from 'unsigned short [4]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2319) : error C2664: '_tcsicmp' : cannot convert parameter 2 from 'unsigned short [4]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2320) : error C2664: '_tcsicmp' : cannot convert parameter 2 from 'unsigned short [4]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2327) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [15]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\Support.cpp(2362) : error C2065: '_itot_s' : undeclared identifier
+Generating Code...
+Compiling...
+test.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+TextMode.cpp
+C:\develop4\common\work\TextMode.cpp(41) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [35]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+TransDlg.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+TrayIcon.cpp
+C:\develop4\cryptosticky\work\TrayIcon.cpp(27) : fatal error C1083: Cannot open include file: 'mxpad.h': No such file or directory
+waveEdit.cpp
+c:\develop4\common\work\xraym.h(163) : error C2061: syntax error : identifier 'CStringA'
+C:\develop4\common\work\waveEdit.cpp(89) : error C2664: 'RegisterClipboardFormatA' : cannot convert parameter 1 from 'unsigned short [13]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(295) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [27]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(318) : error C2664: 'void __thiscall CwaveEdit::xShowInfo(class CString &,int)' : cannot convert parameter 1 from 'unsigned short [19]' to 'class CString &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+C:\develop4\common\work\waveEdit.cpp(320) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [77]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(538) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [19]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(604) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [15]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(643) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [60]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(806) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [61]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(1037) : error C2664: 'OpenWave' : cannot convert parameter 1 from 'unsigned short [1]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(1152) : error C2664: 'int __thiscall CXrayM::FindMenuItem(const char *)' : cannot convert parameter 1 from 'unsigned short [12]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(1179) : error C2664: 'void __thiscall CwaveEdit::xShowInfo(class CString &,int)' : cannot convert parameter 1 from 'unsigned short [22]' to 'class CString &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+C:\develop4\common\work\waveEdit.cpp(1197) : error C2664: 'void __thiscall CwaveEdit::xShowInfo(class CString &,int)' : cannot convert parameter 1 from 'unsigned short [22]' to 'class CString &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+C:\develop4\common\work\waveEdit.cpp(1333) : error C2664: 'SaveWave' : cannot convert parameter 1 from 'unsigned short [1]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(1352) : error C2664: 'OpenWave' : cannot convert parameter 1 from 'unsigned short [1]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(1438) : error C2440: 'initializing' : cannot convert from 'unsigned short [41]' to 'char []'
+        There is no context in which this conversion is possible
+C:\develop4\common\work\waveEdit.cpp(1440) : error C2440: '=' : cannot convert from 'unsigned short [2]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(1464) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [22]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(1465) : error C2664: 'void __thiscall CwaveEdit::xShowInfo(class CString &,int)' : cannot convert parameter 1 from 'unsigned short [20]' to 'class CString &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+C:\develop4\common\work\waveEdit.cpp(1468) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [19]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(1486) : error C2664: 'void __thiscall CwaveEdit::xShowInfo(class CString &,int)' : cannot convert parameter 1 from 'unsigned short [36]' to 'class CString &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+C:\develop4\common\work\waveEdit.cpp(1498) : error C2664: 'void __thiscall CwaveEdit::xShowInfo(class CString &,int)' : cannot convert parameter 1 from 'unsigned short [7]' to 'class CString &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+C:\develop4\common\work\waveEdit.cpp(1834) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [33]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(1851) : error C2664: 'void __thiscall CwaveEdit::xShowInfo(class CString &,int)' : cannot convert parameter 1 from 'unsigned short [24]' to 'class CString &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+C:\develop4\common\work\waveEdit.cpp(1865) : error C2664: 'void __thiscall CwaveEdit::xShowInfo(class CString &,int)' : cannot convert parameter 1 from 'unsigned short [24]' to 'class CString &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+C:\develop4\common\work\waveEdit.cpp(2022) : error C2440: 'initializing' : cannot convert from 'unsigned short [41]' to 'char []'
+        There is no context in which this conversion is possible
+C:\develop4\common\work\waveEdit.cpp(2045) : error C2664: 'void __thiscall CwaveEdit::xShowInfo(class CString &,int)' : cannot convert parameter 1 from 'unsigned short [22]' to 'class CString &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+C:\develop4\common\work\waveEdit.cpp(2057) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [7]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2084) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [7]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2087) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [7]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2100) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [7]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2141) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [24]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2217) : error C2664: 'void __thiscall CwaveEdit::xShowInfo(class CString &,int)' : cannot convert parameter 1 from 'unsigned short [21]' to 'class CString &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+C:\develop4\common\work\waveEdit.cpp(2294) : error C2664: 'void __thiscall CwaveEdit::xShowInfo(class CString &,int)' : cannot convert parameter 1 from 'unsigned short [17]' to 'class CString &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+C:\develop4\common\work\waveEdit.cpp(2374) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [22]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2451) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [10]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2452) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [1]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2453) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [8]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2454) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [9]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2462) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [7]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2478) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [7]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2491) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [11]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2492) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [1]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2493) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [27]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2494) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [1]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2497) : error C2664: 'AppendSubMenu' : cannot convert parameter 1 from 'unsigned short [14]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2499) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [1]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2500) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [21]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2501) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [1]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2502) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [20]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2503) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [21]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2504) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [1]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2505) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [13]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2506) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [20]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2507) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [1]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2508) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [19]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2509) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [1]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2510) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [21]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2511) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [18]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2512) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [1]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2513) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [17]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2516) : error C2664: 'AppendSubMenu' : cannot convert parameter 1 from 'unsigned short [13]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2518) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [1]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2519) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [22]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2520) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [12]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\waveEdit.cpp(2528) : error C2664: 'aprintf' : cannot convert parameter 1 from 'unsigned short [32]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+xArchive.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+xButton.cpp
+C:\develop4\cryptosticky\work\xButton.cpp(6) : fatal error C1083: Cannot open include file: 'mxpad.h': No such file or directory
+XntMask.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+xPtrArr.cpp
+C:\develop4\common\work\xPtrArr.cpp(334) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [69]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\xPtrArr.cpp(369) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [63]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+XrayM.cpp
+c:\develop4\common\work\xraym.h(163) : error C2061: syntax error : identifier 'CStringA'
+C:\develop4\common\work\XrayM.cpp(274) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [47]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(359) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [36]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(975) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [61]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(976) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [12]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(984) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [14]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(990) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [56]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(998) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [61]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(999) : error C2664: 'printf' : cannot convert parameter 1 from 'unsigned short [16]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(1190) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [32]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(1200) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [32]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(1259) : error C2664: 'AppendSubMenu' : cannot convert parameter 1 from 'unsigned short *' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(1275) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short [35]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(1282) : error C2664: 'AppendMenuItem' : cannot convert parameter 1 from 'unsigned short *' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(1303) : error C2664: 'void __cdecl CString::Format(const char *,...)' : cannot convert parameter 1 from 'unsigned short [19]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(1352) : error C2065: '_tcsncpy_s' : undeclared identifier
+C:\develop4\common\work\XrayM.cpp(1352) : error C2065: '_TRUNCATE' : undeclared identifier
+C:\develop4\common\work\XrayM.cpp(1471) : error C2061: syntax error : identifier 'CStringA'
+C:\develop4\common\work\XrayM.cpp(1480) : error C2065: 'str' : undeclared identifier
+C:\develop4\common\work\XrayM.cpp(1480) : error C2440: '=' : cannot convert from 'char [1]' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+C:\develop4\common\work\XrayM.cpp(1488) : error C2228: left of '.GetBuffer' must have class/struct/union type
+C:\develop4\common\work\XrayM.cpp(1498) : error C2228: left of '.ReleaseBuffer' must have class/struct/union type
+xRect.cpp
+xTargetButton.cpp
+C:\develop4\common\work\xTargetButton.cpp(871) : error C2065: '_tcsncpy_s' : undeclared identifier
+Yellowdlg.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+ymemo.cpp
+c:\develop4\cryptosticky\work\cryptosticky.h(29) : fatal error C1083: Cannot open include file: 'PersistInt.h': No such file or directory
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+cryptosticky.exe - 209 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

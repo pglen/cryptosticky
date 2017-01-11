@@ -1,0 +1,35 @@
+   array(29) {
+
+   ["txn_type"]=>  string(10) "web_accept"
+   ["payment_date"]=>  string(25) "21:48:54 Sep 27, 2007 PDT"
+   ["last_name"]=>  string(4) "Glen"
+   ["residence_country"]=>  string(2) "US"
+   ["pending_reason"]=>  string(6) "verify"
+   ["item_name"]=>  string(10) "YellowMemo"
+   ["payment_gross"]=>  string(4) "1.95"
+   ["mc_currency"]=>  string(3) "USD"
+   ["business"]=>  string(21) "cathyglen@verizon.net"
+   ["payment_type"]=>  string(7) "instant"
+   ["payer_status"]=>  string(10) "unverified"
+   ["verify_sign"]=>  string(56) "An5ns1Kso7MWUdW4ErQKJJJ4qi4-A3VjXcDf9B7lUe2gi4y0bxfMQoS0"
+   ["payer_email"]=>  string(21) "peterglen@verizon.net"
+   ["tax"]=>  string(4) "0.00"
+   ["txn_id"]=>  string(17) "9H77206475986853M"
+   ["first_name"]=>  string(5) "Peter"
+   ["receiver_email"]=>  string(21) "cathyglen@verizon.net"
+   ["quantity"]=>  string(1) "1"
+   ["payer_id"]=>  string(13) "RUXZ46UBCEECY"
+   ["invoice"]=>  string(11) "Peter Again"
+   ["receiver_id"]=>  string(13) "8TYA5ZZBCV85G"
+   ["item_number"]=>  string(26) "Notes that will be emailed"
+   ["payment_status"]=>  string(7) "Pending"
+   ["shipping"]=>  string(4) "0.00"
+   ["mc_gross"]=>  string(4) "1.95"
+   ["custom"]=>  string(21) "peterglen@verizon.net"
+   ["charset"]=>  string(12) "windows-1252"
+   ["notify_version"]=>  string(3) "2.4"
+   ["merchant_return_link"]=>  string(18) "Return to Merchant"
+
+   }
+
+

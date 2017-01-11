@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="unicode|Win32">
+      <Configuration>unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="unicode|x64">
+      <Configuration>unicode</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>CryptoSticky</ProjectName>
+    <ProjectGuid>{1F912562-5DB6-4612-A484-421A4418FADE}</ProjectGuid>
+    <RootNamespace>CryptoSticky</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='unicode|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='unicode|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='unicode|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='unicode|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/cryptosticky.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../common/work/;C:\Program Files\Microsoft Speech SDK 5.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SPEAK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;wsock32.lib;rpcrt4.lib;Mpr.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/cryptosticky.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>C:\Program Files\Microsoft Speech SDK 5.1\Lib\i386;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>.\Debug/cryptosticky.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/cryptosticky.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\Debug/cryptosticky.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../common/work/;C:\Program Files\Microsoft Speech SDK 5.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;NDEBUG;WIN32;_WINDOWS;VATI_EXTENSIONS;_WIN32_WINNT=0x401;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/cryptosticky.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;wsock32.lib;rpcrt4.lib;Mpr.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/cryptosticky.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>C:\Program Files\Microsoft Speech SDK 5.1\Lib\i386;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>.\Debug/cryptosticky.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/cryptosticky.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/cryptosticky.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>../../common/work/;C:\Program Files\Microsoft Speech SDK 5.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SPEAK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;wsock32.lib;rpcrt4.lib;Mpr.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/cryptosticky.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>C:\Program Files\Microsoft Speech SDK 5.1\Lib\i386;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\Release/cryptosticky.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/cryptosticky.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\Release/cryptosticky.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>../../common/work/;C:\Program Files\Microsoft Speech SDK 5.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;VATI_EXTENSIONS;_WIN32_WINNT=0x401;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/cryptosticky.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;wsock32.lib;rpcrt4.lib;Mpr.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/cryptosticky.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>C:\Program Files\Microsoft Speech SDK 5.1\Lib\i386;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\Release/cryptosticky.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/cryptosticky.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='unicode|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SPEAK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\common\work\BmpDC.h" />
+    <ClInclude Include="..\..\common\work\dsp.h" />
+    <ClInclude Include="..\..\common\work\GrayDlg.h" />
+    <ClInclude Include="..\..\common\work\label.h" />
+    <ClInclude Include="..\..\common\work\misc.h" />
+    <ClInclude Include="..\..\common\work\multimon.h" />
+    <ClInclude Include="..\..\common\work\mxpad.h" />
+    <ClInclude Include="..\..\common\work\PersistDlg.h" />
+    <ClInclude Include="..\..\common\work\PersistInt.h" />
+    <ClInclude Include="..\..\common\work\PersistStr.h" />
+    <ClInclude Include="..\..\common\work\Picture.h" />
+    <ClInclude Include="..\..\common\work\PlaySound.h" />
+    <ClInclude Include="..\..\common\work\Popup.h" />
+    <ClInclude Include="..\..\common\work\RecordSound.h" />
+    <ClInclude Include="..\..\common\work\SimpleGrid.h" />
+    <ClInclude Include="..\..\common\work\Support.h" />
+    <ClInclude Include="..\..\common\work\TextMode.h" />
+    <ClInclude Include="..\..\common\work\waveEdit.h" />
+    <ClInclude Include="..\..\common\work\XntMask.h" />
+    <ClInclude Include="..\..\common\work\xPtrArr.h" />
+    <ClInclude Include="..\..\common\work\XrayM.h" />
+    <ClInclude Include="..\..\common\work\xRect.h" />
+    <ClInclude Include="..\..\common\work\xTargetButton.h" />
+    <ClInclude Include="about.h" />
+    <ClInclude Include="Alarm.h" />
+    <ClInclude Include="Banner.h" />
+    <ClInclude Include="ChangeMem.h" />
+    <ClInclude Include="clicense.h" />
+    <ClInclude Include="Clicker.h" />
+    <ClInclude Include="ColRect.h" />
+    <ClInclude Include="CryptoSticky.h" />
+    <ClInclude Include="datalog.h" />
+    <ClInclude Include="DlgGetPath.h" />
+    <ClInclude Include="EditDlg.h" />
+    <ClInclude Include="FakeWin.h" />
+    <ClInclude Include="FileDialogST.h" />
+    <ClInclude Include="GetDirName.h" />
+    <ClInclude Include="gotoline.h" />
+    <ClInclude Include="LevenStein.h" />
+    <ClInclude Include="LISTVWEX.H" />
+    <ClInclude Include="LogDlg.h" />
+    <ClInclude Include="MemoConf.h" />
+    <ClInclude Include="MemoSupp.h" />
+    <ClInclude Include="MsgBox.h" />
+    <ClInclude Include="NetPeerDlg.h" />
+    <ClInclude Include="Pass.h" />
+    <ClInclude Include="PGedit.h" />
+    <ClInclude Include="Register.h" />
+    <ClInclude Include="Resolv.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ScribEdit.h" />
+    <ClInclude Include="SearchDLG.h" />
+    <ClInclude Include="Setup.h" />
+    <ClInclude Include="SetupTab.h" />
+    <ClInclude Include="SndBoard.h" />
+    <ClInclude Include="Speak.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="test.h" />
+    <ClInclude Include="TransCheckBox.h" />
+    <ClInclude Include="TransDlg.h" />
+    <ClInclude Include="TransSlider.h" />
+    <ClInclude Include="TrayIcon.h" />
+    <ClInclude Include="xArchive.h" />
+    <ClInclude Include="xButton.h" />
+    <ClInclude Include="xEdit.h" />
+    <ClInclude Include="Yellowdlg.h" />
+    <ClInclude Include="yellowmemopad.h" />
+    <ClInclude Include="ymemo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\about.bmp" />
+    <Image Include="images\bg1.bmp" />
+    <Image Include="images\bg2.bmp" />
+    <Image Include="images\bg3.bmp" />
+    <Image Include="images\bg4.bmp" />
+    <Image Include="images\bg4a.bmp" />
+    <Image Include="images\bitmap10.bmp" />
+    <Image Include="images\bitmap11.bmp" />
+    <Image Include="images\bitmap13.bmp" />
+    <Image Include="images\bitmap14.bmp" />
+    <Image Include="images\bitmap6.bmp" />
+    <Image Include="images\Graphic3a.bmp" />
+    <Image Include="images\Igloo2.BMP" />
+    <Image Include="images\Igloo3.BMP" />
+    <Image Include="images\Igloo4.bmp" />
+    <Image Include="images\river.bmp" />
+    <Image Include="images\sticky.bmp" />
+    <Image Include="images\watermark.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\CTrayIconDemo.ico" />
+    <Image Include="res\filetypes.bmp" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\icon3.ico" />
+    <Image Include="res\icon4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="arrow.cur" />
+    <None Include="arrowcop.cur" />
+    <None Include="res\CTrayIconDemo.rc2" />
+    <None Include="res\cur00001.cur" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\cursor2.cur" />
+    <None Include="res\cursor3.cur" />
+    <None Include="res\cursor4.cur" />
+    <None Include="res\pointer.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CYellowMemo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\common\work\bluepoint.cpp" />
+    <ClCompile Include="..\..\common\work\BmpDC.cpp" />
+    <ClCompile Include="..\..\common\work\dsp.cpp" />
+    <ClCompile Include="..\..\common\work\GrayDlg.cpp" />
+    <ClCompile Include="..\..\common\work\label.cpp" />
+    <ClCompile Include="..\..\common\work\misc.cpp" />
+    <ClCompile Include="..\..\common\work\multimon.cpp" />
+    <ClCompile Include="..\..\common\work\mxpad.cpp" />
+    <ClCompile Include="..\..\common\work\PersistDlg.cpp" />
+    <ClCompile Include="..\..\common\work\PersistInt.cpp" />
+    <ClCompile Include="..\..\common\work\PersistStr.cpp" />
+    <ClCompile Include="..\..\common\work\Picture.cpp" />
+    <ClCompile Include="..\..\common\work\PlaySound.cpp" />
+    <ClCompile Include="..\..\common\work\Popup.cpp" />
+    <ClCompile Include="..\..\common\work\RecordSound.cpp" />
+    <ClCompile Include="..\..\common\work\SimpleGrid.cpp" />
+    <ClCompile Include="..\..\common\work\Support.cpp" />
+    <ClCompile Include="..\..\common\work\TextMode.cpp" />
+    <ClCompile Include="..\..\common\work\waveEdit.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="..\..\common\work\XntMask.cpp" />
+    <ClCompile Include="..\..\common\work\xPtrArr.cpp" />
+    <ClCompile Include="..\..\common\work\XrayM.cpp" />
+    <ClCompile Include="..\..\common\work\xRect.cpp" />
+    <ClCompile Include="..\..\common\work\xTargetButton.cpp" />
+    <ClCompile Include="about.cpp" />
+    <ClCompile Include="Alarm.cpp" />
+    <ClCompile Include="Banner.cpp" />
+    <ClCompile Include="ChangeMem.cpp" />
+    <ClCompile Include="Clicker.cpp" />
+    <ClCompile Include="ColRect.cpp" />
+    <ClCompile Include="CYellowMemo.cpp" />
+    <ClCompile Include="datalog.cpp" />
+    <ClCompile Include="DlgGetPath.cpp" />
+    <ClCompile Include="EditDlg.cpp" />
+    <ClCompile Include="FakeWin.cpp" />
+    <ClCompile Include="FileDialogST.cpp" />
+    <ClCompile Include="GetDirName.cpp" />
+    <ClCompile Include="gotoline.cpp" />
+    <ClCompile Include="LevenStein.cpp" />
+    <ClCompile Include="LISTVWEX.CPP" />
+    <ClCompile Include="LogDlg.cpp" />
+    <ClCompile Include="MemoConf.cpp" />
+    <ClCompile Include="MemoSupp.cpp" />
+    <ClCompile Include="mouse.cpp" />
+    <ClCompile Include="MsgBox.cpp" />
+    <ClCompile Include="NetPeerDlg.cpp" />
+    <ClCompile Include="Pass.cpp" />
+    <ClCompile Include="PGedit.cpp" />
+    <ClCompile Include="Register.cpp" />
+    <ClCompile Include="Resolv.cpp" />
+    <ClCompile Include="ScribEdit.cpp" />
+    <ClCompile Include="SearchDLG.cpp" />
+    <ClCompile Include="Setup.cpp" />
+    <ClCompile Include="SetupTab.cpp" />
+    <ClCompile Include="SndBoard.cpp" />
+    <ClCompile Include="Speak.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="TransCheckBox.cpp" />
+    <ClCompile Include="TransDlg.cpp" />
+    <ClCompile Include="TransSlider.cpp" />
+    <ClCompile Include="TrayIcon.cpp" />
+    <ClCompile Include="xArchive.cpp" />
+    <ClCompile Include="xButton.cpp" />
+    <ClCompile Include="xEdit.cpp" />
+    <ClCompile Include="Yellowdlg.cpp" />
+    <ClCompile Include="ymemo.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="CYellowMemo.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

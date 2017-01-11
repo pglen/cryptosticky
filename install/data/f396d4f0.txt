@@ -1,0 +1,5 @@
+\Sticky Alarm feature\
+1 0 0 0 0 0 0 0 none non%%e none
+Sticky has an eazy to use gentle alarm.
+The alarm will work with the computer's beep,and the attached speaker.
+This way, the atarm sounds even if the speakers are off.

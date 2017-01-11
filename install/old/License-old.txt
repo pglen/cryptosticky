@@ -1,0 +1,66 @@
+BETA TEST AGREEMENT
+
+ This software is provided on a 'Beta Testing' basis without any express or implied warranty.
+In no event will the authors be held liable for any damages arising from the use of
+this software. By agreeing to install this software, you are bound by the following
+agreement:
+
+   1.  Confidentiality; Ownership.
+
+  Recipient acknowledges that, in the course of using the Evaluation, Item
+and performing its duties under this Agreement, it may obtain
+information relating to the Evaluation Item and/or Company
+("Company Proprietary Information").  Such Company Proprietary Information
+shall belong solely to Company and includes, but is not limited to,
+the existence of the Evaluation Item, its features and mode of operation,
+this Agreement, trade secrets, know-how, inventions (whether or not patentable),
+techniques, processes, programs, ideas, algorithms, schematics,
+testing procedures, software design and architecture, computer code, internal
+documentation, design and function specifications, product requirements, problem reports,
+analysis and performance information, software documents, and other technical, business,
+product, marketing and financial information, plans and data.
+
+  Company acknowledges that, in the course of the Recipient using the
+Evaluation Item and performing its duties under this Agreement, it may obtain
+information relating to the Recipient's assays and/or the Recipient
+("Recipient Proprietary Information"). Such Recipient Proprietary Information shall
+ belong solely to Recipient and includes, but is not limited to the existence of such
+assays, any know-how, techniques, processes, and other recipient specific
+technical, business, product, marketing and financial information, plans, and
+data. Further, Recipient shall own all discoveries, inventions, (whether or not
+patentable), data and other results arising from the use of the Recipient's
+ with the Evaluation Item, but only to the extent that such discovery,
+invention, data or results relates to the use and operation of Recipient's
+ and Recipient expressly reserves all intellectual property rights
+therein with the exception of those enumerated in Paragraph 3 (d) below.
+
+ In regard to both Company and Recipient ("Parties") Proprietary Information:
+
+  Parties shall not, during the term of this Agreement, and for a period of at
+least three (3) years after its termination, use (except as expressly authorized
+by this Agreement) or disclose Proprietary Information without the prior
+written consent of the other party unless such Proprietary Information becomes
+part of the public domain.
+
+   2.  Warranty Disclaimer.
+
+ The parties acknowledge that the Evaluation Item is for use in a Beta test.
+COMPANY DISCLAIMS ALL WARRANTIES RELATING TO THE EVALUATION ITEM, EXPRESS
+OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES AGAINST
+INFRINGEMENT OF THIRD-PARTY RIGHTS, MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE.
+
+    3.  Limitation of Remedies and Damages.
+
+ COMPANY SHALL NOT BE RESPONSIBLE OR LIABLE WITH RESPECT TO ANY SUBJECT MATTER
+OF THIS AGREEMENT UNDER ANY CONTRACT, NEGLIGENCE, STRICT LIABILITY OR OTHER
+THEORY (A) FOR LOSS OR INACCURACY OF DATA OR COST OF PROCUREMENT OF
+SUBSTITUTE GOODS, SERVICES OR TECHNOLOGY, OR (B) FOR ANY INDIRECT,
+INCIDENTAL OR CONSEQUENTIAL DAMAGES
+
+    4.  Nonassignability.
+
+ Neither the rights nor the obligations arising under this Agreement are
+assignable or transferable by Recipient, and any such attempted assignment
+or transfer shall be void and without effect.
+

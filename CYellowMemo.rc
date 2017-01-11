@@ -1,0 +1,1208 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CTrayIconDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 335, 401
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CTEXT           "Extended Edition",IDC_YMEM,27,44,280,15
+    LTEXT           "Copyright © by  Peter Glen, 2010 ... 2016",IDC_COPYRIGHT,99,352,142,8
+    DEFPUSHBUTTON   "E&xit Dialog",IDOK,243,380,70,14
+    CTEXT           "CryptoSticky Pro, Version 4.0, Built Dec/2016",IDC_YMEM2,31,338,277,8,SS_NOPREFIX
+    LTEXT           "This copy of CryptoSticky is registered to:",IDC_REG,105,301,131,8
+    PUSHBUTTON      "Cancel",IDREG,262,7,66,14,NOT WS_VISIBLE
+    PUSHBUTTON      "&Register",IDC_BUTTON1,95,380,70,14
+    PUSHBUTTON      "&Help",IDC_BUTTON2,169,380,70,14
+    CTEXT           "DEMO",IDC_REG2,105,314,129,19
+    PUSHBUTTON      "Buy CryptoSticky",IDC_BUTTON3,21,380,70,14
+    LTEXT           "BluePoint ® Encryption Copyright © by Peter Glen, 2012",IDC_BLUEPOINT,88,365,163,8
+    CTEXT           "CryptoSticky Pro",IDC_YMEM3,27,11,280,25
+END
+
+IDD_CTRAYICONDEMO_DIALOG DIALOGEX 0, 0, 288, 145
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Current Memo List"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Hide",IDC_HIDE,171,121,50,14
+    PUSHBUTTON      "E&xit",IDCANCEL,227,121,50,14
+    LISTBOX         IDC_LIST1,8,14,268,99,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "CoCo",IDC_HIDE2,113,122,50,14
+END
+
+IDD_DIALOG9 DIALOGEX 0, 0, 396, 390
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "CryptoSticky"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Stick&y Tree:",IDC_TREELABEL,9,9,39,8,0,WS_EX_TRANSPARENT
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | TVS_CHECKBOXES | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,20,290,190
+    PUSHBUTTON      "&Create New Sticky",IDC_BUTTON4,308,9,79,14
+    PUSHBUTTON      "&Edit Sticky",IDC_BUTTON7,308,27,79,14
+    PUSHBUTTON      "&Delete Sticky",IDC_BUTTON3,308,45,79,14
+    PUSHBUTTON      "Sho&w All Selected",IDC_BUTTON8,308,87,79,14
+    PUSHBUTTON      "&Hide All",IDC_BUTTON9,308,105,79,14
+    PUSHBUTTON      "Paste from Clipboard",IDC_BUTTON5,308,129,79,14
+    PUSHBUTTON      "Copy to Clipboard",IDC_BUTTON6,308,147,79,14
+    PUSHBUTTON      "Enc&rypt Clipboard",IDOK2,308,165,79,14
+    PUSHBUTTON      "Decryp&t Clipboard",IDOK3,308,183,79,14
+    PUSHBUTTON      "Show Next &Alarm(s)",IDC_BUTTON11,308,207,79,14
+    PUSHBUTTON      "Show Missed Alarms",IDC_BUTTON35,308,225,79,14
+    PUSHBUTTON      "Configure",IDC_BUTTON10,308,249,79,14
+    PUSHBUTTON      "A&bout",IDC_BUTTON17,308,267,79,14
+    PUSHBUTTON      "Help",IDC_BUTTON34,308,285,79,14
+    PUSHBUTTON      "To System Tray",IDC_BUTTON2,308,344,79,14
+    DEFPUSHBUTTON   "E&xit ",IDOK,308,362,79,14
+    CTEXT           "",IDC_TSTR2,7,211,290,56,SS_NOTIFY,WS_EX_STATICEDGE
+    CTEXT           "",IDC_TSTR,7,272,289,11,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT1,7,285,290,14,ES_CENTER | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_DLGMODALFRAME
+    CONTROL         "Listen for Remote Stickies",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,303,96,10
+    CONTROL         "Auto Show Stickies",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,317,77,10
+    CONTROL         "Start CryptoSticky Automatically",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,330,115,10
+    CONTROL         "Ignore Missed Alarms",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,175,303,83,10
+    CONTROL         "Auto Hide to System Tray",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,175,317,100,10
+    CONTROL         "Show Stickies in 'Deleted'",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,175,330,105,10
+    CTEXT           "Ready",IDC_STATUS,7,362,290,14,SS_SUNKEN,WS_EX_DLGMODALFRAME | WS_EX_TRANSPARENT
+    PUSHBUTTON      "Test",IDC_BUTTON1,243,9,22,12,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,315,338,72,2
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,315,81,72,2
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,315,201,72,2
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,315,123,72,2
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,315,243,72,2
+    LTEXT           "Click Here to Tell Time",IDC_TELL,7,368,72,8,NOT WS_VISIBLE
+    PUSHBUTTON      "&Search for Sticky",IDC_BUTTON40,308,63,79,14
+    CONTROL         "Stickies This Week",IDC_CHECK17,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,345,77,10
+    CONTROL         "Show Permanent Stickies",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,175,345,105,10
+    PUSHBUTTON      "Resent",IDC_BUTTON41,308,302,79,14
+    PUSHBUTTON      "Sort ",IDC_BUTTON42,308,320,79,14
+END
+
+IDD_DIALOG7 DIALOG 0, 0, 353, 123
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CryptoSticky"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,45,8,291,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,45,22,291,73,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    DEFPUSHBUTTON   "&OK",IDOK,286,102,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,229,102,50,14
+    LTEXT           "Title:",IDC_TITLE,9,9,16,8
+    LTEXT           "Sticky:",IDC_MEMO,10,25,22,8
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 348, 374
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Memo"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "T&itle:",IDC_TITLETEXT,11,8,16,8
+    EDITTEXT        IDC_EDIT8,36,6,161,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT1,11,24,252,126,ES_MULTILINE | ES_WANTRETURN | WS_VSCROLL
+    CONTROL         "&Folder Sticky",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,206,8,57,10
+    DEFPUSHBUTTON   "Save and E&xit",IDOK,276,7,58,14
+    PUSHBUTTON      "Cancel",IDCANCEL,276,22,58,14
+    PUSHBUTTON      "Select All",IDC_BUTTON12,276,41,58,14
+    PUSHBUTTON      "&Copy",IDC_BUTTON1,276,56,28,14
+    PUSHBUTTON      "&Paste",IDC_BUTTON2,306,56,28,14
+    PUSHBUTTON      "Speak",IDC_BUTTON34,276,108,58,14
+    PUSHBUTTON      "Stop TTS",IDC_BUTTON35,107,15,58,14,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "&Record",IDC_BUTTON9,276,128,58,14
+    PUSHBUTTON      "Pl&ay",IDC_BUTTON8,275,144,58,14
+    CONTROL         "Red Sticky",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,153,51,10
+    CONTROL         "Centered Text",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,74,153,61,10
+    CONTROL         "Persist on &top",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,140,153,59,10
+    CONTROL         "AutoSpe&l_T(",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,204,153,46,10
+    LTEXT           "Static",IDC_WAV,11,166,324,65,SS_SUNKEN
+    GROUPBOX        " Calen&dar for the Alarm",IDC_CALFRAME,11,234,160,116
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT | WS_TABSTOP,20,246,147,99
+    GROUPBOX        " Alarm ",IDC_ALAFRAME,175,234,159,116
+    LTEXT           "&Hours",IDC_HOURT,195,244,20,8
+    EDITTEXT        IDC_EDIT2,187,257,31,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_ARROWKEYS,222,255,11,17
+    LTEXT           "&Minutes",IDC_MINT,237,244,26,8
+    EDITTEXT        IDC_EDIT4,237,257,23,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN2,"msctls_updown32",UDS_ARROWKEYS,263,255,11,17
+    LTEXT           "AM/PM",IDC_AMPMT,279,244,26,8
+    EDITTEXT        IDC_EDIT10,280,257,23,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN3,"msctls_updown32",UDS_ARROWKEYS,307,255,11,17
+    PUSHBUTTON      "Now + 1 Hr",IDC_BUTTON4,180,278,50,13
+    PUSHBUTTON      "No&w + 1 Min",IDC_BUTTON3,234,278,51,13
+    CONTROL         "Alarm O&n",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,287,280,45,10
+    CONTROL         "&Sound On",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,185,298,48,10
+    CONTROL         "Beep On",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,236,298,44,10
+    CONTROL         "Read on",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,282,298,43,10
+    GROUPBOX        " Alarm is set to: ",IDC_ALAFRAME2,180,310,149,25
+    EDITTEXT        IDC_EDIT6,191,321,38,12,ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT5,247,320,22,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT7,276,320,44,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    CONTROL         "&24 Hour",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,211,336,41,10
+    CONTROL         "&12 Hour",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,256,337,41,10
+    PUSHBUTTON      "Set Alarm 7 days from now",IDC_BUTTON11,12,356,105,13
+    PUSHBUTTON      "Set Alarm 14 days from now",IDC_BUTTON13,121,356,105,13
+    PUSHBUTTON      "Set Alarm 21 days from now",IDC_BUTTON14,230,356,105,13
+    PUSHBUTTON      "Sound &Board",IDC_BUTTON17,0,122,58,14,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Config Sticky",IDC_BUTTON7,0,42,58,14,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "MonthCalendar1",IDC_MONTHCALENDAR1,"SysMonthCal32",MCS_NOTODAY | MCS_WEEKNUMBERS | WS_TABSTOP,16,243,147,99
+    GROUPBOX        "",IDC_STATIC,0,98,96,20,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Show Main",IDC_BUTTON5,0,63,58,14,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,250,0,20,20
+    CONTROL         "Private Sticky",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,0,87,59,10
+    PUSHBUTTON      "Encrypt",IDC_BUTTON19,276,73,58,14
+    PUSHBUTTON      "Decrypt",IDC_BUTTON38,276,88,58,14
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 134, 130
+STYLE DS_SETFONT | WS_POPUP
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG3 DIALOG 0, 0, 186, 90
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 354, 73
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CTEXT           "Alarm!",IDC_ALAR,17,7,244,13,NOT WS_VISIBLE,WS_EX_STATICEDGE
+    CTEXT           "Alarm!",IDC_ALAR2,7,18,340,24,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "&Close",IDOK,274,51,58,15
+    PUSHBUTTON      "&Show Sticky",IDC_BUTTON2,211,51,58,15
+    PUSHBUTTON      "Stop Soun&d",IDC_BUTTON3,148,51,58,15
+    PUSHBUTTON      "Snoo&ze &1",IDC_BUTTON1,85,51,58,15
+    PUSHBUTTON      "Snooze &3",IDC_BUTTON4,22,51,58,15
+END
+
+IDD_DIALOG5 DIALOG 0, 0, 186, 90
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+IDD_DIALOG6 DIALOG 0, 0, 132, 14
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Static",IDC_TEXT,0,0,124,8,NOT WS_VISIBLE | WS_DISABLED
+END
+
+IDD_DIALOG8 DIALOGEX 0, 0, 516, 368
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CryptoSticky Setup"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "E&xit Dialog",IDOK,440,347,64,14
+    GROUPBOX        " Sticky Colors ",IDC_LAB1,8,4,246,87
+    PUSHBUTTON      "Sticky Color",IDC_BUTTON1,46,16,99,14
+    PUSHBUTTON      "Sticky Header Color",IDC_BUTTON2,46,34,99,14
+    PUSHBUTTON      "Sticky (Red) Color",IDC_BUTTON3,46,52,99,14
+    PUSHBUTTON      "Sticky (Red) Header Color",IDC_BUTTON10,46,70,99,14
+    GROUPBOX        " Fonts ",IDC_LAB16,261,106,246,58
+    PUSHBUTTON      "Common Sticky Font",IDC_BUTTON13,288,120,99,14
+    PUSHBUTTON      "Common Header Font",IDC_BUTTON14,288,139,99,14
+    LTEXT           "Sticky Transparency",IDC_LAB6,296,16,66,8
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,271,25,111,10,WS_EX_TRANSPARENT
+    LTEXT           "Idle Sticky Transparency",IDC_LAB7,289,35,79,8
+    CONTROL         "Slider1",IDC_SLIDER2,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,271,46,111,10
+    EDITTEXT        IDC_EDIT1,19,255,287,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Restore Default Colors",IDC_BUTTON11,155,41,85,14
+    PUSHBUTTON      "Restore Default Fonts",IDC_BUTTON15,411,127,85,14
+    PUSHBUTTON      "Default Transparency",IDC_BUTTON16,409,62,85,14
+    PUSHBUTTON      "Restore Default Path",IDC_BUTTON12,409,254,85,14
+    CONTROL         "",IDC_R1,"Static",SS_BITMAP | SS_SUNKEN,22,16,16,14
+    CONTROL         "",IDC_R2,"Static",SS_BITMAP | SS_SUNKEN,22,34,16,14
+    CONTROL         "",IDC_R3,"Static",SS_BITMAP | SS_SUNKEN,22,52,16,14
+    CONTROL         "",IDC_R4,"Static",SS_BITMAP | SS_SUNKEN,22,70,16,14
+    GROUPBOX        " Alarm Colors ",IDC_LAB2,8,95,246,87
+    PUSHBUTTON      "Alarm Color",IDC_BUTTON19,43,106,99,14
+    CONTROL         "",IDC_R5,"Static",SS_BITMAP | SS_SUNKEN,21,106,16,14
+    PUSHBUTTON      "Alarm Header Color",IDC_BUTTON20,43,124,99,14
+    CONTROL         "",IDC_R6,"Static",SS_BITMAP | SS_SUNKEN,21,124,16,14
+    PUSHBUTTON      "Browse",IDC_BUTTON5,314,254,45,14
+    PUSHBUTTON      "Default Alarm Colors",IDC_BUTTON21,155,132,85,14
+    PUSHBUTTON      "Restore Default Sound",IDC_BUTTON22,155,218,85,14
+    GROUPBOX        " Data Path ",IDC_LAB4,9,243,498,33
+    GROUPBOX        " Transparency ",IDC_LAB15,261,5,246,96
+    GROUPBOX        " Alarm Sound ",IDC_LAB3,9,184,244,57
+    LTEXT           "0",IDC_NUL4,265,25,8,8
+    LTEXT           "0",IDC_NUL2,265,46,8,8
+    LTEXT           "Max",IDC_MAX1,384,25,14,8
+    LTEXT           "Max",IDC_MAX2,384,46,14,8
+    EDITTEXT        IDC_EDIT3,20,198,223,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BUTTON23,51,218,48,14
+    PUSHBUTTON      "Alarm Button Color",IDC_BUTTON24,43,142,99,14
+    CONTROL         "",IDC_R7,"Static",SS_BITMAP | SS_SUNKEN,21,142,16,14
+    PUSHBUTTON      "Alarm Button Highlight",IDC_BUTTON25,43,160,99,14
+    CONTROL         "",IDC_R8,"Static",SS_BITMAP | SS_SUNKEN,21,160,16,14
+    LTEXT           "Beep Frequency",IDC_LAB10,309,177,53,8
+    LTEXT           "Beep Length",IDC_LAB11,315,198,42,8
+    GROUPBOX        " Alarm Speaker Sound ",IDC_LAB17,261,165,246,74
+    PUSHBUTTON      "Restore Default Beep",IDC_BUTTON27,411,197,85,14
+    CONTROL         "Slider1",IDC_SLIDER3,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,280,187,111,10
+    LTEXT           "Min",IDC_MIN1,267,187,12,8
+    LTEXT           "Max",IDC_MAX4,393,187,14,8
+    CONTROL         "Slider1",IDC_SLIDER4,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,279,209,111,10
+    LTEXT           "Min",IDC_MIN2,266,209,12,8
+    LTEXT           "Max",IDC_MAX5,390,209,14,8
+    PUSHBUTTON      "Play",IDC_BUTTON4,103,218,48,14
+    CONTROL         "Slider1",IDC_SLIDER5,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,271,67,111,10
+    LTEXT           "0",IDC_NUL3,267,67,8,8
+    LTEXT           "Max",IDC_MAX3,384,67,14,8
+    LTEXT           "Main Window Transparency",IDC_LAB8,284,56,90,8
+    PUSHBUTTON      "Default UI Transparency",IDC_BUTTON18,409,80,85,14
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,0,231,85,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Show Missed Alarms",IDC_BUTTON28,10,347,81,14
+    PUSHBUTTON      "Clear Missed Alarms",IDC_BUTTON29,93,347,81,14
+    CONTROL         "Enable AutoRefresh",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,0,298,79,10
+    EDITTEXT        IDC_EDIT2,0,283,44,12,ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Import Sticky",IDC_BUTTON26,374,347,64,14
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_ARROWKEYS | NOT WS_VISIBLE | WS_DISABLED,0,246,11,17
+    PUSHBUTTON      "Read",IDC_BUTTON30,364,254,40,14
+    CONTROL         "Enable Auto Popup",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,0,270,77,10
+    CONTROL         "12 Hour Main Clock",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,143,326,79,10
+    CONTROL         "Enable Network Sticky Notify Sound",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,342,311,131,10
+    GROUPBOX        " Notification Sound",IDC_LAB5,9,280,498,62
+    PUSHBUTTON      "Restore Default Sound",IDC_BUTTON31,409,290,85,14
+    EDITTEXT        IDC_EDIT11,19,291,287,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BUTTON32,314,290,45,14
+    PUSHBUTTON      "Play",IDC_BUTTON33,364,290,40,14
+    CONTROL         "Enable Network Sticky Notify Beep",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,41,311,127,10
+    PUSHBUTTON      "Export Stickies",IDC_BUTTON36,308,347,64,14
+    PUSHBUTTON      "Show Net Peers",IDC_BUTTON37,176,347,64,14
+    LTEXT           "Sticky Transparency Timeout",IDC_LAB12,403,17,93,8
+    CONTROL         "Spin3",IDC_SPIN3,"msctls_updown32",UDS_ARROWKEYS,452,28,12,20
+    EDITTEXT        IDC_EDIT4,423,32,23,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Sec",IDC_LAB13,467,33,14,8
+    LTEXT           "Set to zero for no timeout",IDC_LAB14,410,49,80,8
+    CONTROL         "Slider1",IDC_SLIDER6,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,271,88,111,10
+    LTEXT           "Alarm Window Transparency",IDC_LAB9,284,77,92,8
+    CONTROL         "Enable Network Sticky Notify Voice",IDC_CHECK14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,191,311,128,10
+    CONTROL         "Prevent the computer from going standby",IDC_CHECK15,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,316,224,153,10
+    CONTROL         "Enable Network Sticky Auto Popup",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,245,327,127,10
+    PUSHBUTTON      "Show Log",IDC_BUTTON39,242,347,64,14
+END
+
+IDD_DIALOG10 DIALOG 0, 0, 353, 238
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CryptoSticky Setup"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,163,2,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,217,2,50,14
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",0x0,7,9,338,219
+END
+
+IDD_REGISTER DIALOGEX 0, 0, 301, 119
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CryptoSticky Registration Key"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        ID_NAME,130,65,147,12,ES_AUTOHSCROLL
+    EDITTEXT        ID_KEY,130,82,147,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,229,100,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,172,100,50,14
+    LTEXT           "Registration Name:",IDC_REGNAME,18,68,75,9
+    LTEXT           "Registration Key:",IDC_REGKEY,18,85,81,9
+    LTEXT           "If you received your Registration Key via Email, copy and paste the appropriate fields into this dialog. The registration name will appear on the top line of the printed documents.",IDC_REGEXPLAIN,19,22,261,25
+    LTEXT           "Please fill in registration details recieved from CryptoSticky.",IDC_FILL,19,8,184,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,19,57,257,2
+END
+
+IDD_DIALOG11 DIALOG 0, 0, 470, 217
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,403,194,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,346,194,50,14
+END
+
+IDD_DIALOG12 DIALOG 0, 0, 202, 29
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Static",IDC_STATIC,35,14,58,12
+END
+
+IDD_DIALOG13 DIALOG 0, 0, 186, 90
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+IDD_GET_PATH DIALOGEX 0, 0, 300, 231
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "CryptoSticky Data Root"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",IDC_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | TVS_FULLROWSELECT | TVS_INFOTIP | WS_BORDER | WS_TABSTOP,12,28,276,148
+    PUSHBUTTON      "OK",IDOK,206,210,82,14
+    PUSHBUTTON      "Cancel",IDCANCEL,109,211,82,14
+    LTEXT           "Idle",IDC_STATIC_NOTE,12,189,276,9
+    LTEXT           "Select new CryptoSticky Data Root. If Selecting a network directory, make sure it has sufficent availability and priviledges",IDC_STATIC,12,7,276,16
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,12,182,276,2
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,12,203,276,2
+    PUSHBUTTON      "Make New &Dir",IDC_BUTTON1,12,211,82,14
+END
+
+IDD_DIALOG21 DIALOG 0, 0, 346, 58
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TimeDim::Create Directory"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,34,260,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Create",IDOK,283,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,283,23,50,14
+    LTEXT           "",IDC_PTEXT,7,19,258,12
+    LTEXT           "Enter a new directorry name:",IDC_STATIC,6,7,188,12
+END
+
+IDD_DIALOG31 DIALOG 0, 0, 460, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CryptoSticky Log Entries"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,381,191,71,14
+    PUSHBUTTON      "Cancel",IDCANCEL,0,143,50,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1,8,6,444,179,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL | NOT WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,0,159,20,20
+    DEFPUSHBUTTON   "Delete Log File",IDOK4,303,191,71,14
+END
+
+IDD_MENUBASE DIALOG 0, 0, 53, 35
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,1,0,50,14,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,1,15,50,14,NOT WS_VISIBLE
+END
+
+IDD_DIALOG14 DIALOG 0, 0, 186, 90
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+IDD_DIALOG15 DIALOGEX 0, 0, 243, 115
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Encryption key / Pass"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,75,160,13,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,7,91,160,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,186,91,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,186,75,50,14
+    LTEXT           "This is the password as well as the encryption key. ",IDC_INFO,42,3,162,8
+    LTEXT           "The text will be encrypted / decrypted with this key. Please use caution when encrypting, as your text will not be recoverable without this key.",IDC_INFO2,7,51,229,21
+END
+
+IDD_MBOX DIALOG 0, 0, 186, 70
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&No",ID_MBOX_NO,48,49,50,14
+    PUSHBUTTON      "&Yes",ID_MBOX_YES,11,49,50,14
+    PUSHBUTTON      "&Stop",ID_MBOX_STOP,82,49,50,14
+    PUSHBUTTON      "&OK",IDOK,128,49,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,136,1,50,14,NOT WS_VISIBLE | WS_DISABLED
+END
+
+IDD_DIALOG16 DIALOGEX 0, 0, 408, 121
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Config for Sticky"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "E&xit Dialog",IDOK,329,100,65,14
+    PUSHBUTTON      "Cancel",IDCANCEL,13,39,65,14,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Head Color",IDC_BUTTON1,35,9,65,14
+    CONTROL         "",IDC_HCOL,"Static",SS_BITMAP,14,9,15,13
+    PUSHBUTTON      "Sticky Color",IDC_BUTTON2,35,25,65,14
+    CONTROL         "",IDC_HCOL2,"Static",SS_BITMAP,14,25,15,13
+    PUSHBUTTON      "Head Font Size",IDC_BUTTON3,66,41,65,14,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Sticky Font Size",IDC_BUTTON4,136,40,65,14,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Reset Defaults",IDC_BUTTON10,329,7,65,14
+    PUSHBUTTON      "Reset Defaults",IDC_BUTTON11,329,24,65,14
+    PUSHBUTTON      "AutoSize",IDC_BUTTON12,7,104,65,14,NOT WS_VISIBLE | WS_DISABLED
+    COMBOBOX        IDC_COMBO1,174,9,46,57,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Header Font Size:",IDC_STATIC,106,12,58,11
+    COMBOBOX        IDC_COMBO2,175,25,46,57,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Memo Font Size:",IDC_STATIC,106,28,58,9
+    EDITTEXT        IDC_EDIT1,101,59,210,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Sticky Image",IDC_BUTTON13,329,59,65,14
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,102,76,208,9
+    LTEXT           "Image Transparency:",IDC_STATIC,19,76,68,8
+    PUSHBUTTON      "Sticky Font Color",IDC_BUTTON7,257,24,65,14
+    CONTROL         "",IDC_HCOL3,"Static",SS_BITMAP,232,25,15,13
+    PUSHBUTTON      "Header  Font Color",IDC_BUTTON8,257,7,65,15
+    CONTROL         "",IDC_HCOL4,"Static",SS_BITMAP,232,10,15,13
+    LTEXT           "Image  File Name:",IDC_STATIC,29,59,58,8
+    PUSHBUTTON      "Remove Image",IDC_BUTTON14,329,76,65,14
+    GROUPBOX        "Sticky Image",IDC_STATIC,7,48,394,49
+END
+
+IDD_DIALOG17 DIALOG 0, 0, 409, 212
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,346,185,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,291,186,50,14
+    LTEXT           "Sound Board",IDC_WAV,7,12,389,114
+END
+
+IDD_DIALOG18 DIALOGEX 0, 0, 456, 186
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Network Peers"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "E&xit Dialog",IDOK,387,166,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,0,151,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Refresh",IDC_BUTTON1,332,166,50,14
+    LTEXT           "",IDC_GRID,14,22,423,139,SS_SUNKEN | WS_TABSTOP
+    LTEXT           "Enable / Disable network peer functions by checking / unchecking the desired items from the list.",IDC_MESSAGE,14,9,422,8
+END
+
+IDD_DIALOG19 DIALOGEX 0, 0, 369, 238
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "CryptoSticky Memo Search"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "&Search",IDOK,295,7,67,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,193,67,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1,7,7,168,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "E&xit Search",IDOK4,295,219,67,14
+    LISTBOX         IDC_LIST2,7,31,355,185,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,7,220,198,13,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Search Memo &Title and Body",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,185,8,103,13
+    PUSHBUTTON      "&Hide All",IDOK3,219,219,67,14
+END
+
+IDD_DIALOG20 DIALOGEX 0, 0, 480, 305
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_THICKFRAME
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,284,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Cancel",IDCANCEL,7,266,50,14,NOT WS_VISIBLE
+    CTEXT           "Cryptosticky Prox",IDC_HEAD,7,249,74,8
+    CTEXT           "Extended Edition",IDC_HEAD2,138,49,204,20
+    CTEXT           "Versoion 4.0, Built Apr 2016",IDC_HEAD3,140,271,204,9
+    CTEXT           "Copright Peter Glen, 2007 ... 2016",IDC_HEAD4,136,287,204,11
+    CTEXT           "Cryptosticky Pro",IDC_HEAD5,107,7,264,58
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "CryptoSticky"
+            VALUE "CompanyName", "Robot Monkey Software"
+            VALUE "FileDescription", "CryptoSticky Memo Software"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "CryptoSticky Application"
+            VALUE "LegalCopyright", "Copyright Peter Glen, (C) 2006 ... 2010 ... 2011"
+            VALUE "OriginalFilename", "CryptoSticky.exe"
+            VALUE "ProductName", "CryptoSticky Application"
+            VALUE "ProductVersion", "2, 3, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 394
+    END
+
+    IDD_CTRAYICONDEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 281
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_DIALOG9, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 387
+        TOPMARGIN, 9
+        BOTTOMMARGIN, 376
+    END
+
+    IDD_DIALOG7, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 346
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 341
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 367
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 127
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 347
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 125
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 7
+    END
+
+    IDD_DIALOG8, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 509
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 361
+    END
+
+    IDD_DIALOG10, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 346
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 112
+    END
+
+    IDD_DIALOG11, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 463
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_DIALOG12, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 22
+    END
+
+    IDD_DIALOG13, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_GET_PATH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_DIALOG21, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 339
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+
+    IDD_DIALOG31, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 453
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_MENUBASE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 46
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 28
+    END
+
+    IDD_DIALOG14, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DIALOG15, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 108
+    END
+
+    IDD_MBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_DIALOG16, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 401
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_DIALOG17, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 402
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_DIALOG18, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 449
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_DIALOG19, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 362
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 233
+    END
+
+    IDD_DIALOG20, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 456
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 298
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_TASKBAR_MENU MENU
+BEGIN
+    POPUP "Taskbar Menu"
+    BEGIN
+        MENUITEM "&Create New Sticky",          ID_TASKBARMENU_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "Show Selected (Active) Stickies\tClick", ID_TASKBARMENU_TOGGLESTICKY
+        MENUITEM "Hide All Stickies",           ID_TASKBARMENU_HIDESELECTEDSTICKIES
+        MENUITEM SEPARATOR
+        MENUITEM "&Show CryptoSticky Main Panel\tDouble Click", IDR_TASKBAR_MENU_SHOW
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit CryptoSticky",          IDR_TASKBAR_MENU_EXIT
+    END
+END
+
+IDR_WAVED_MENU MENU
+BEGIN
+    POPUP "Rcliclk"
+    BEGIN
+        MENUITEM "Play\tSpace",                 ID_RCLICLK_PLAY
+        MENUITEM SEPARATOR
+        MENUITEM "Select All (toggle)\tCtrl-A", ID_RCLICLK_SELECTALL
+        MENUITEM SEPARATOR
+        POPUP "Process"
+        BEGIN
+            MENUITEM "Normalize",                   ID_RCLICLK_PROCESS_NORMALIZE
+            MENUITEM SEPARATOR
+            MENUITEM "Fade In",                     ID_RCLICLK_PROCESS_FADEIN
+            MENUITEM "Fade Out",                    ID_RCLICLK_PROCESS_FADEOUT
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Crop Selected\tCtrl-R",       ID_RCLICLK_CROPSELECTED
+        MENUITEM SEPARATOR
+        MENUITEM "Cut Selected\tCtrl-X",        ID_RCLICLK_CUTSELECTED
+        MENUITEM "Copy Selected\tCtrl-C",       ID_RCLICLK_COPYSELECTED
+        MENUITEM "Clear Buffer\tDel",           ID_RCLICLK_CLEARBUFFER
+        MENUITEM SEPARATOR
+        MENUITEM "Paste\tCtrl-V",               ID_RCLICLK_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Save Buffer\tCtrl-Q",         ID_RCLICLK_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "Save as &File\tCtrl-S",       ID_RCLICLK_SAVEASFILE
+        MENUITEM "Open File\tCtrl-O",           ID_RCLICLK_OPENFILE
+        MENUITEM SEPARATOR
+        MENUITEM " Zero Crossing\tCtrl-G",      ID_RCLICLK_ADJUSTTOZEROCROSSING
+        MENUITEM "Undo\tCtrl-Z",                ID_RCLICLK_UNDO
+    END
+END
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "Right"
+    BEGIN
+        MENUITEM "Show Sticky",                 ID_RIGHT_SHOWSELECTED
+        MENUITEM "Hide Sticky",                 ID_RIGHT_HIDE
+        MENUITEM "Edit Sticky\t(Double Click)", ID_RIGHT_EDITMEMO
+        MENUITEM SEPARATOR
+        MENUITEM "Search For Sticky",           ID_RIGHT_SEARCH
+        MENUITEM SEPARATOR
+        MENUITEM "Toggle Select on Sticky\t(Space)", ID_RIGHT_SELECTMEMO
+        MENUITEM "Clear Select on SubItems",    ID_RIGHT_CLEARSELECTONSUBITEMS
+        MENUITEM SEPARATOR
+        MENUITEM "Create New Sticky\t(Alt-C)",  ID_RIGHT_CREATENEWMENO
+        MENUITEM SEPARATOR
+        MENUITEM "Delete Sticky\t(Alt-D)",      ID_RIGHT_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Rebuild Sticky Tree",         ID_RIGHT_REBUILDMEMOTREE
+        MENUITEM "Select All",                  ID_RIGHT2_SELECTALL
+        MENUITEM "Deselect All",                ID_RIGHT_UNSELECTALL
+        MENUITEM SEPARATOR
+        MENUITEM "Gather All Stickies to this Monitor", ID_RIGHT_GATHERALLSTICKIESINTHECENTER
+        MENUITEM SEPARATOR
+        MENUITEM "Broadcast Sticky",            ID_RIGHT_BROADCASTMEMO
+        MENUITEM "Broadcast All Stickies",      ID_RIGHT2_BROADCASTALL
+        MENUITEM SEPARATOR
+        POPUP "Send Network Sticky to"
+        BEGIN
+            MENUITEM "First",                       ID_RIGHT_SENDNETWORKSTICKYTO_FIRST
+        END
+        POPUP "Move to Folder"
+        BEGIN
+            MENUITEM "First",                       ID_RIGHT_MOVETOFOLDER_FIRST
+        END
+    END
+END
+
+IDR_MENU2 MENU
+BEGIN
+    POPUP "Right2"
+    BEGIN
+        MENUITEM "Create New Sticky",           ID_RIGHT2_CREATENEWMEMO
+        MENUITEM SEPARATOR
+        MENUITEM "Show All Selected",           ID_RIGHT_SHOWSELECTED
+        MENUITEM "Hide All Selected Stickies",  ID_RIGHT2_HIDEALLSELECTEDMEMOS
+        MENUITEM SEPARATOR
+        MENUITEM "Search for Sticky",           ID_RIGHT2_SEARCHFORSTICKY
+        MENUITEM SEPARATOR
+        MENUITEM "Deselect All",                ID_RIGHT2_DESELECTALL
+        MENUITEM "Select All",                  ID_RIGHT2_SELECTALL
+        MENUITEM SEPARATOR
+        MENUITEM "Rebuild Sticky Tree",         ID_RIGHT_REBUILDMEMOTREE
+        MENUITEM SEPARATOR
+        MENUITEM "Broadcast All",               ID_RIGHT2_BROADCASTALL
+    END
+END
+
+IDR_MENU3 MENU
+BEGIN
+    POPUP "Right Mkdir"
+    BEGIN
+        MENUITEM "Make Directory",              ID_RIGHTMKDIR_MAKEDIRECTORY
+    END
+END
+
+IDR_MENU4 MENU
+BEGIN
+    POPUP "RclickMemo"
+    BEGIN
+        MENUITEM "Create New Sticky",           ID_RCLICKMEMO_CREATENEWMEMO
+        MENUITEM "Edit Sticky\tDouble click",   ID_RCLICKMEMO_EDITMEMO
+        MENUITEM SEPARATOR
+        POPUP "Visibility"
+        BEGIN
+            MENUITEM "Hide this Sticky",            ID_RCLICKMEMO_HIDEMEMO
+            MENUITEM "Hide this Sticky (Uncheck Main)", ID_RCLICKMEMO_HIDEMEMO2
+            MENUITEM "Hide All Visible Stickies",   ID_RCLICKMEMO_HIDEALLMEMOS
+            MENUITEM "Show All Selected Stickies",  ID_RCLICKMEMO_SHOWALLSELECTED
+        END
+        MENUITEM SEPARATOR
+        POPUP "Man Panel Visibility"
+        BEGIN
+            MENUITEM "Show Main Panel\tShift Double Click", ID_RCLICKMEMO_SHOWMAINPANEL
+            MENUITEM "Exit Main Panel\tAlt-X",      ID_RCLICKMEMO_CLOSEMAINPANEL
+            MENUITEM "Hide Main Panel",             ID_RCLICKMEMO_HIDEMAINPANEL
+        END
+        MENUITEM SEPARATOR
+        POPUP "ClipBoard"
+        BEGIN
+            MENUITEM "Copy To clipboard\tCtrl-C",   ID_RCLICKMEMO_COPYTOCLIPBOARD
+            MENUITEM "Paste from Clipboard\tCtrl-V", ID_RCLICKMEMO_PASTEFROMCLIPBOARD
+            MENUITEM "Append from Clipboard",       ID_RCLICKMEMO_APPENDFROMCLIPBOARD
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Config Sticky Colors and Fonts", ID_RCLICKMEMO_CONFIGTHISMEMO
+        MENUITEM "AutoSize\tAlt-A",             ID_RCLICKMEMO_AUTOSIZE
+        MENUITEM "Goto Next Sticky\tTab",       ID_RCLICKMEMO_GOTONEXTSTICKY
+        MENUITEM SEPARATOR
+        POPUP "Send Network Sticky to"
+        BEGIN
+            MENUITEM "First",                       ID_RIGHT_SENDNETWORKSTICKYTO_FIRST
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Encrypt Sticky",              ID_RCLICKMEMO_ENCRYPTDECRYPTMEMO
+        MENUITEM "Decrypt Sticky",              ID_RCLICKMEMO_DECRYPTMEMO
+        MENUITEM SEPARATOR
+        MENUITEM "Eraser",                      ID_RCLICKMEMO_ERASER
+        MENUITEM "Erase Drawing",               ID_RCLICKMEMO_ERASEDRAWING
+        MENUITEM SEPARATOR
+        POPUP "Older Drawings"
+        BEGIN
+            MENUITEM "None",                        ID_RCLICKMEMO_OLDERDRAWINGS_NONE
+        END
+        POPUP "Older Recordings"
+        BEGIN
+            MENUITEM "None",                        ID_RCLICKMEMO_OLDERRECORDINGS_NONE
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "res\\bitmap1.bmp"
+
+IDB_BITMAP3             BITMAP                  "images\\bg1.bmp"
+
+IDB_BITMAP4             BITMAP                  "images\\bg3.bmp"
+
+IDB_BITMAP5             BITMAP                  "images\\bg4a.bmp"
+
+IDB_BITMAP7             BITMAP                  "images\\sticky.bmp"
+
+IDB_BITMAP8             BITMAP                  "images\\about.bmp"
+
+IDB_FILE_TYPES          BITMAP                  "res\\filetypes.bmp"
+
+IDB_BITMAP9             BITMAP                  "images\\Graphic3a.bmp"
+
+IDB_BITMAP11            BITMAP                  "images\\bitmap11.bmp"
+
+IDB_BITMAP12            BITMAP                  "images\\watermark.bmp"
+
+IDB_BITMAP13            BITMAP                  "images\\bg2.BMP"
+
+IDB_BITMAP14            BITMAP                  "images\\bitmap14.bmp"
+
+IDB_BITMAP15            BITMAP                  "images\\Igloo4.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR                  "res\\cursor1.cur"
+
+IDC_URL                 CURSOR                  "arrow.cur"
+
+IDC_POINTER_COPY        CURSOR                  "arrowcop.cur"
+
+IDC_COPY                CURSOR                  "res\\pointer.cur"
+
+IDC_CURSOR2             CURSOR                  "res\\cursor2.cur"
+
+IDC_CURSOR3             CURSOR                  "res\\cursor3.cur"
+
+IDC_PLAY                CURSOR                  "res\\cursor4.cur"
+
+IDC_CLOSE               CURSOR                  "res\\cur00001.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG9 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG20 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CTrayIconDemo.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About CryptoSticky"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_TASKBAR_MENU_ABOUT  "Play current waveform"
+    IDR_TASKBAR_MENU_SHOW   "Shows the Dialog Box"
+    IDR_TASKBAR_MENU_EXIT   "Select whole wave"
+    ID_RIGHT_DELETE         "Delete selected Sticky. Sticky is moved to the hidden 'Deleted' folder."
+    ID_RIGHT_SHOW           "Show currently selected Sticky"
+    ID_RIGHT2_SELECTALL     "Show All Selected stickies"
+    ID_RIGHT_HIDE           "Hide currently selected Sticky"
+    ID_RIGHT_CREATENEWMENO  "Create a new Sticky. If follder sticky is created, current selection acts as the parent Sticky"
+END
+
+STRINGTABLE
+BEGIN
+    ID_RIGHT2_HIDEALLSELECTEDMEMOS "Hide all stickies"
+    ID_RIGHT_EDITMEMO       "Edit currently selected Sticky."
+    ID_RIGHT_SELECTMEMO     "Toggle current show state on selected Sticky."
+    ID_RIGHT2_REFRESHALL    "Refresh stickies by re-reading them from disk."
+    ID_RIGHT2_CREATENEWMEMO "Create New Sticky."
+    IDS_ABOUT               "CryptoSticky Pro, Version 3.1, Built Aug/23/2012"
+    ID_RIGHT_REFRESHTREE    "Re-Read all stickies from disk, and show currently selected ones."
+    ID_RIGHT_REBUILDMEMOTREE 
+                            "Re-Read all stickies from disk, hide them, and show currently selected ones."
+    ID_RIGHT2_DESELECTALL   "De select and hide all stickies"
+    ID_RIGHT_CLEARSELECTONSUBITEMS "Clear selection on item and it's subitems"
+    ID_RCLICKMEMO_HIDEMEMO  "Hide currently Selected Sticky"
+    ID_RCLICKMEMO_EDITMEMO  "Edit current sticky."
+    ID_RCLICKMEMO_SHOWALLSELECTED "Show all selected Stickies."
+    ID_RCLICKMEMO_HIDEALLMEMOS 
+                            "Hide all Stickies. To permanently hide, uncheck at the main screen."
+END
+
+STRINGTABLE
+BEGIN
+    ID_RCLICKMEMO_SHOWMAINPANEL "Show main panel"
+    ID_RCLICKMEMO_ENCRYPTDECRYPTMEMO 
+                            "Encrypt Sticky. Will ask for password key."
+    ID_RCLICKMEMO_DECRYPTMEMO "Decrypt Sticky. Will ask for password key."
+    ID_RCLICKMEMO_AUTOSIZE  "Autosize sticky to display all usable content. With autosize, sticky will not expand beyound 3 /4 of the screen height."
+    ID_RCLICKMEMO_CREATENEWMEMO "Create New Sticky"
+    ID_RCLICKMEMO_CLOSEMAINPANEL 
+                            "Exit main panel. Will not prompt for confirmation on exit."
+    ID_RCLICKMEMO_HIDEMAINPANEL "Hde main panel."
+    ID_RCLICKMEMO_CONFIGTHISMEMO "Configure sticky Colors and Font sizes"
+    ID_RCLICKMEMO_ERASER    "Switch to eraser mode. To switch back to draw select eraser again. (toggle)"
+    ID_RCLICKMEMO_ERASEDRAWING 
+                            "Erase the 'doodle' portion of the drawing. The doodle does not have any undo facilities"
+    ID_RIGHT_SHOWSELECTED   "Show All selected stickies"
+    ID_RCLICKMEMO_NEWMEMO   "Create New Sticky"
+END
+
+STRINGTABLE
+BEGIN
+    ID_RIGHT_BROADCASTMEMO  "Broadcast sticky to all machines. Will obey the 'send' sentings  in configuration->netpeers panel."
+    ID_RIGHT2_BROADCASTALL  "Broadcast all stickies to all machines. Will obey the 'send' sentings  in configuration->netpeers panel."
+    ID_RCLICKMEMO_GOTONEXTSTICKY 
+                            "Goto Next visible Sticky. Stickies are stacked in load order."
+    ID_RIGHT_UNSELECTALL    "De-select and hide all Stickies."
+    ID_RIGHT_GATHERALLSTICKIESINTHECENTER 
+                            "This feature is useful for multi monitor situations to gather all stickies to the main monitor."
+    ID_RCLICKMEMO_OLDERDRAWINGS "Show Backup Drawings  from network history"
+    ID_RCLICKMEMO_OLDERRECORDINGS "Show Older wave files from backup"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\CTrayIconDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

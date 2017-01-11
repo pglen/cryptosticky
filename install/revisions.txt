@@ -1,0 +1,291 @@
+Revision History
+
+The following list is extracted from the SVN version control message dump. It is provided for informative purposes only, carries no significance to actual events or revisions.
+
+Revision: 200
+Author: petergl
+Date: 11:57:30 AM, Monday, June 01, 2009
+Message:
+Reg Check
+
+Revision: 199
+Author: petergl
+Date: 11:33:03 AM, Monday, June 01, 2009
+Message:
+reg write checking
+
+Revision: 154
+Author: petergl
+Date: 1:19:03 PM, Friday, December 21, 2007
+Message:
+More Grid and SQL
+
+Revision: 153
+Author: petergl
+Date: 1:16:03 PM, Wednesday, December 12, 2007
+Message:
+new upload
+
+Revision: 148
+Author: petergl
+Date: 8:36:28 AM, Friday, October 26, 2007
+Message:
+Web page manual update
+
+
+Revision: 147
+Author: petergl
+Date: 10:55:10 PM, Wednesday, October 24, 2007
+Message:
+Web page
+
+Revision: 146
+Author: petergl
+Date: 8:38:48 PM, Wednesday, October 24, 2007
+Message:
+Conflict resolution, More fixes, Install
+
+Revision: 145
+Author: petergl
+Date: 10:06:39 AM, Wednesday, October 24, 2007
+Message:
+New show mechanism, Install
+
+Revision: 144
+Author: petergl
+Date: 10:02:22 PM, Tuesday, October 23, 2007
+Message:
+Window Locator
+
+Revision: 143
+Author: petergl
+Date: 9:49:58 PM, Tuesday, October 23, 2007
+Message:
+Updated 12/24, cleanup, install
+
+Revision: 142
+Author: petergl
+Date: 7:18:34 PM, Tuesday, October 23, 2007
+Message:
+Changed some names
+
+Revision: 141
+Author: petergl
+Date: 3:21:10 PM, Tuesday, October 23, 2007
+Message:
+Serialize, ala list, oldwin list
+
+Revision: 140
+Author: petergl
+Date: 12:19:18 PM, Tuesday, October 23, 2007
+Message:
+Updated Ymemo, fixed misc items
+
+Revision: 139
+Author: petergl
+Date: 12:01:13 PM, Monday, October 22, 2007
+Message:
+Fixed update, auto minute test
+
+Revision: 138
+Author: petergl
+Date: 1:38:42 PM, Sunday, October 21, 2007
+Message:
+Completed network checking
+
+Revision: 137
+Author: petergl
+Date: 3:15:19 PM, Saturday, October 20, 2007
+Message:
+Network delete
+
+Revision: 136
+Author: petergl
+Date: 2:03:51 PM, Saturday, October 20, 2007
+Message:
+Deleted moved to 'Deleted' folder
+
+Revision: 135
+Author: petergl
+Date: 5:30:03 PM, Friday, October 19, 2007
+Message:
+Network memos
+
+Revision: 134
+Author: petergl
+Date: 3:44:47 PM, Friday, October 19, 2007
+Message:
+Networked memos
+
+Revision: 133
+Author: petergl
+Date: 9:50:54 AM, Friday, October 19, 2007
+Message:
+Permament dialogs, fixed sliders, Install
+
+Revision: 132
+Author: petergl
+Date: 7:28:49 AM, Thursday, October 18, 2007
+Message:
+Relesed Spell Check version
+
+Revision: 131
+Author: petergl
+Date: 6:49:56 AM, Thursday, October 18, 2007
+Message:
+Spellcheck almost done
+
+
+Revision: 130
+Author: petergl
+Date: 1:02:10 PM, Wednesday, October 17, 2007
+Message:
+started spellcheck
+
+Revision: 129
+Author: petergl
+Date: 7:06:38 AM, Monday, October 15, 2007
+Message:
+New Build
+----
+Modified : /yellowmemo/install/bin/setup.exe
+Modified : /yellowmemo/install/html/Thumbs.db
+
+
+Revision: 128
+Author: petergl
+Date: 5:09:42 AM, Monday, October 15, 2007
+Message:
+New Manual Pages, Install
+
+Revision: 127
+Author: petergl
+Date: 5:33:55 AM, Sunday, October 14, 2007
+Message:
+Added revision history. Install.
+
+Revision: 126
+Author: petergl
+Date: 5:17:12 AM, Sunday, October 14, 2007
+Message:
+Fixed calendar updatedata bug
+
+Revision: 124
+Author: petergl
+Date: 3:11:50 PM, Tuesday, September 25, 2007
+Message:
+Fixed alarm color, Install
+
+Revision: 123
+Author: petergl
+Date: 1:11:39 AM, Tuesday, September 25, 2007
+Message:
+Alarm rework, install
+
+
+Revision: 122
+Author: petergl
+Date: 5:59:49 PM, Monday, September 24, 2007
+Message:
+Alarm stuff
+----
+
+
+Revision: 121
+Author: petergl
+Date: 10:27:28 PM, Saturday, September 22, 2007
+Message:
+Relase candidate
+----
+
+
+Revision: 120
+Author: petergl
+Date: 4:01:33 PM, Saturday, September 22, 2007
+Message:
+Path Config file share op
+----
+
+
+Revision: 119
+Author: petergl
+Date: 12:20:42 AM, Friday, September 21, 2007
+Message:
+install
+----
+
+
+Revision: 118
+Author: petergl
+Date: 12:10:39 AM, Friday, September 21, 2007
+Message:
+More intelligent Screentip
+----
+
+
+Revision: 117
+Author: petergl
+Date: 11:10:58 PM, Thursday, September 20, 2007
+Message:
+KeyGen + Fixes
+----
+
+
+Revision: 116
+Author: petergl
+Date: 4:44:45 PM, Thursday, September 20, 2007
+Message:
+Yellowmemo install + updates
+----
+
+
+Revision: 115
+Author: petergl
+Date: 2:35:47 PM, Thursday, September 20, 2007
+Message:
+Recompiled with about box
+----
+
+Revision: 47
+Author: petergl
+Date: 11:34:51 PM, Wednesday, August 01, 2007
+Message:
+Final Compile on import
+----
+
+
+Revision: 46
+Author: petergl
+Date: 11:32:49 PM, Wednesday, August 01, 2007
+Message:
+29 mar 07
+----
+
+
+Revision: 45
+Author: petergl
+Date: 11:30:16 PM, Wednesday, August 01, 2007
+Message:
+dec 12 06
+----
+
+
+Revision: 44
+Author: petergl
+Date: 11:28:16 PM, Wednesday, August 01, 2007
+Message:
+second iteration at aug 1 2006
+----
+
+
+Revision: 43
+Author: petergl
+Date: 11:22:50 PM, Wednesday, August 01, 2007
+Message:
+Initial on jun 2 06
+
+
+
+
+
+

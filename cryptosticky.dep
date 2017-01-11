@@ -1,0 +1,947 @@
+# Microsoft Developer Studio Generated Dependency File, included by cryptosticky.mak
+
+.\datalog.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\datalog.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	
+
+.\CYellowMemo.rc : \
+	".\arrow.cur"\
+	".\arrowcop.cur"\
+	".\images\about.bmp"\
+	".\images\bg1.bmp"\
+	".\images\bg3.bmp"\
+	".\images\bg4a.bmp"\
+	".\images\bitmap11.bmp"\
+	".\images\Graphic3a.bmp"\
+	".\images\sticky.bmp"\
+	".\images\watermark.bmp"\
+	".\res\bitmap1.bmp"\
+	".\res\CTrayIconDemo.ico"\
+	".\res\CTrayIconDemo.rc2"\
+	".\res\cur00001.cur"\
+	".\res\cursor1.cur"\
+	".\res\cursor2.cur"\
+	".\res\cursor3.cur"\
+	".\res\cursor4.cur"\
+	".\res\filetypes.bmp"\
+	".\res\icon1.ico"\
+	".\res\icon2.ico"\
+	".\res\pointer.cur"\
+	
+
+.\about.cpp : \
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\xPtrArr.h"\
+	".\about.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\LogDlg.h"\
+	".\MemoSupp.h"\
+	".\Register.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	".\XntMask.h"\
+	
+
+.\Alarm.cpp : \
+	"..\..\..\program files\microsoft speech sdk 5.1\include\sapi.h"\
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\misc.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\xPtrArr.h"\
+	"..\..\common\work\XrayM.h"\
+	".\Alarm.h"\
+	".\ChangeMem.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\datalog.h"\
+	".\FakeWin.h"\
+	".\LogDlg.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\Speak.h"\
+	".\statlist.h"\
+	".\TransDlg.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	".\Yellowdlg.h"\
+	".\ymemo.h"\
+	
+
+..\..\common\work\bluepoint.cpp : \
+	"..\..\common\work\bluepoint.h"\
+	"..\..\common\work\mxpad.h"\
+	
+
+.\ChangeMem.cpp : \
+	"..\..\common\work\mxpad.h"\
+	".\ChangeMem.h"\
+	
+
+.\Clicker.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\Support.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	
+
+.\ColRect.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	".\Clicker.h"\
+	".\ColRect.h"\
+	".\CryptoSticky.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	
+
+.\CYellowMemo.cpp : \
+	"..\..\..\program files\microsoft speech sdk 5.1\include\sapi.h"\
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\RecordSound.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\waveEdit.h"\
+	"..\..\common\work\xPtrArr.h"\
+	"..\..\common\work\XrayM.h"\
+	".\ChangeMem.h"\
+	".\clicense.cpp"\
+	".\clicense.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\datalog.h"\
+	".\EditDlg.h"\
+	".\FakeWin.h"\
+	".\gotoline.h"\
+	".\LogDlg.h"\
+	".\MemoSupp.h"\
+	".\MsgBox.h"\
+	".\PGedit.h"\
+	".\Resolv.h"\
+	".\Speak.h"\
+	".\statlist.h"\
+	".\TransDlg.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	".\Yellowdlg.h"\
+	".\ymemo.h"\
+	
+
+.\DlgGetPath.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\Support.h"\
+	".\DlgGetPath.h"\
+	".\GetDirName.h"\
+	".\xButton.h"\
+	
+
+..\..\common\work\dsp.cpp : \
+	"..\..\common\work\dsp.h"\
+	"..\..\common\work\mxpad.h"\
+	
+
+.\EditDlg.cpp : \
+	"..\..\..\program files\microsoft speech sdk 5.1\include\sapi.h"\
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\RecordSound.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\waveEdit.h"\
+	"..\..\common\work\xPtrArr.h"\
+	"..\..\common\work\XrayM.h"\
+	".\ChangeMem.h"\
+	".\Clicker.h"\
+	".\ColRect.h"\
+	".\CryptoSticky.h"\
+	".\datalog.h"\
+	".\EditDlg.h"\
+	".\FakeWin.h"\
+	".\LogDlg.h"\
+	".\MemoConf.h"\
+	".\MemoSupp.h"\
+	".\PGedit.h"\
+	".\Resolv.h"\
+	".\SndBoard.h"\
+	".\Speak.h"\
+	".\statlist.h"\
+	".\TransDlg.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	".\Yellowdlg.h"\
+	".\ymemo.h"\
+	
+
+.\FakeWin.cpp : \
+	"..\..\..\program files\microsoft speech sdk 5.1\include\sapi.h"\
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\xPtrArr.h"\
+	"..\..\common\work\XrayM.h"\
+	".\ChangeMem.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\FakeWin.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\Speak.h"\
+	".\statlist.h"\
+	".\TransDlg.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	".\Yellowdlg.h"\
+	".\ymemo.h"\
+	
+
+.\FileDialogST.cpp : \
+	"..\..\common\work\mxpad.h"\
+	".\FileDialogST.h"\
+	
+
+.\GetDirName.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\Support.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\GetDirName.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	
+
+.\gotoline.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\gotoline.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	
+
+..\..\common\work\GrayDlg.cpp : \
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\xPtrArr.h"\
+	
+
+..\..\common\work\label.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\Popup.h"\
+	
+
+.\LevenStein.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\LevenStein.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	
+
+.\LISTVWEX.CPP : \
+	"..\..\common\work\mxpad.h"\
+	".\LISTVWEX.H"\
+	
+
+.\LogDlg.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\datalog.h"\
+	".\LogDlg.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	
+
+.\MemoConf.cpp : \
+	"..\..\..\program files\microsoft speech sdk 5.1\include\sapi.h"\
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\xPtrArr.h"\
+	"..\..\common\work\XrayM.h"\
+	".\ChangeMem.h"\
+	".\Clicker.h"\
+	".\ColRect.h"\
+	".\CryptoSticky.h"\
+	".\FakeWin.h"\
+	".\MemoConf.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\Speak.h"\
+	".\statlist.h"\
+	".\TransDlg.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	".\Yellowdlg.h"\
+	".\ymemo.h"\
+	
+
+.\MemoSupp.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\Support.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	
+
+..\..\common\work\misc.cpp : \
+	"..\..\common\work\misc.h"\
+	"..\..\common\work\mxpad.h"\
+	
+
+.\mouse.cpp : \
+	"..\..\..\program files\microsoft speech sdk 5.1\include\sapi.h"\
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\RecordSound.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\waveEdit.h"\
+	"..\..\common\work\xPtrArr.h"\
+	"..\..\common\work\XrayM.h"\
+	".\about.h"\
+	".\Alarm.h"\
+	".\ChangeMem.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\EditDlg.h"\
+	".\FakeWin.h"\
+	".\gotoline.h"\
+	".\LogDlg.h"\
+	".\MemoSupp.h"\
+	".\PGedit.h"\
+	".\Resolv.h"\
+	".\Speak.h"\
+	".\statlist.h"\
+	".\TransDlg.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	".\Yellowdlg.h"\
+	".\ymemo.h"\
+	
+
+.\MsgBox.cpp : \
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\xPtrArr.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\MemoSupp.h"\
+	".\MsgBox.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	
+
+..\..\common\work\mxpad.cpp : \
+	"..\..\common\work\mxpad.h"\
+	
+
+.\NetPeerDlg.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\SimpleGrid.h"\
+	"..\..\common\work\Support.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\LISTVWEX.H"\
+	".\MemoSupp.h"\
+	".\NetPeerDlg.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	
+
+.\Pass.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\Support.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\MemoSupp.h"\
+	".\Pass.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	".\XntMask.h"\
+	
+
+..\..\common\work\PersistDlg.cpp : \
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\xPtrArr.h"\
+	
+
+..\..\common\work\PersistInt.cpp : \
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	
+
+..\..\common\work\PersistStr.cpp : \
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistStr.h"\
+	
+
+.\PGedit.cpp : \
+	"..\..\..\program files\microsoft speech sdk 5.1\include\sapi.h"\
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\xPtrArr.h"\
+	"..\..\common\work\XrayM.h"\
+	".\ChangeMem.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\FakeWin.h"\
+	".\LevenStein.h"\
+	".\MemoSupp.h"\
+	".\PGedit.h"\
+	".\Resolv.h"\
+	".\Speak.h"\
+	".\statlist.h"\
+	".\TransDlg.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	".\Yellowdlg.h"\
+	".\ymemo.h"\
+	
+
+..\..\common\work\PlaySound.cpp : \
+	"..\..\common\work\dsp.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	
+
+..\..\common\work\Popup.cpp : \
+	"..\..\common\work\misc.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\Support.h"\
+	
+
+..\..\common\work\RecordSound.cpp : \
+	"..\..\common\work\dsp.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\RecordSound.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	
+
+.\Register.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\Support.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\MemoSupp.h"\
+	".\Register.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	
+
+.\Resolv.cpp : \
+	"..\..\common\work\mxpad.h"\
+	".\Resolv.h"\
+	
+
+.\ScribEdit.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\ScribEdit.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	
+
+.\Setup.cpp : \
+	"..\..\..\program files\microsoft speech sdk 5.1\include\sapi.h"\
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\SimpleGrid.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\xPtrArr.h"\
+	"..\..\common\work\XrayM.h"\
+	".\Alarm.h"\
+	".\ChangeMem.h"\
+	".\Clicker.h"\
+	".\ColRect.h"\
+	".\CryptoSticky.h"\
+	".\DlgGetPath.h"\
+	".\FakeWin.h"\
+	".\FileDialogST.h"\
+	".\LISTVWEX.H"\
+	".\MemoSupp.h"\
+	".\NetPeerDlg.h"\
+	".\Resolv.h"\
+	".\Setup.h"\
+	".\Speak.h"\
+	".\statlist.h"\
+	".\TransDlg.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	".\Yellowdlg.h"\
+	".\ymemo.h"\
+	
+
+.\SetupTab.cpp : \
+	"..\..\..\program files\microsoft speech sdk 5.1\include\sapi.h"\
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\xPtrArr.h"\
+	".\Alarm.h"\
+	".\Clicker.h"\
+	".\ColRect.h"\
+	".\CryptoSticky.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\Setup.h"\
+	".\SetupTab.h"\
+	".\Speak.h"\
+	".\statlist.h"\
+	".\TransDlg.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	".\ymemo.h"\
+	
+
+..\..\common\work\SimpleGrid.cpp : \
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\SimpleGrid.h"\
+	"..\..\common\work\Support.h"\
+	
+
+.\SndBoard.cpp : \
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\waveEdit.h"\
+	"..\..\common\work\xPtrArr.h"\
+	"..\..\common\work\XrayM.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\SndBoard.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	
+
+.\Speak.cpp : \
+	"..\..\..\program files\microsoft speech sdk 5.1\include\sapi.h"\
+	"..\..\common\work\mxpad.h"\
+	".\Speak.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\StdAfx.h"\
+	
+
+..\..\common\work\Support.cpp : \
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\Support.h"\
+	
+
+.\test.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\test.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	
+
+..\..\common\work\TextMode.cpp : \
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\TextMode.h"\
+	
+
+.\TransDlg.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TransDlg.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	
+
+.\TrayIcon.cpp : \
+	"..\..\common\work\mxpad.h"\
+	".\TrayIcon.h"\
+	
+
+..\..\common\work\waveEdit.cpp : \
+	"..\..\common\work\dsp.h"\
+	"..\..\common\work\filedialogst.h"\
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\misc.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\waveEdit.h"\
+	"..\..\common\work\xPtrArr.h"\
+	"..\..\common\work\XrayM.h"\
+	
+
+.\xArchive.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	
+
+.\xButton.cpp : \
+	"..\..\common\work\mxpad.h"\
+	".\xButton.h"\
+	
+
+.\XntMask.cpp : \
+	"..\..\common\work\label.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\Popup.h"\
+	".\Clicker.h"\
+	".\CryptoSticky.h"\
+	".\MemoSupp.h"\
+	".\Resolv.h"\
+	".\statlist.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\XntMask.h"\
+	
+
+..\..\common\work\xPtrArr.cpp : \
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\xPtrArr.h"\
+	
+
+..\..\common\work\XrayM.cpp : \
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\misc.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\TextMode.h"\
+	"..\..\common\work\xPtrArr.h"\
+	"..\..\common\work\XrayM.h"\
+	
+
+..\..\common\work\xRect.cpp : \
+	"..\..\common\work\xRect.h"\
+	
+
+..\..\common\work\xTargetButton.cpp : \
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\xTargetButton.h"\
+	
+
+.\Yellowdlg.cpp : \
+	"..\..\..\program files\microsoft speech sdk 5.1\include\sapi.h"\
+	"..\..\common\work\bluepoint.h"\
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\misc.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\RecordSound.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\waveEdit.h"\
+	"..\..\common\work\xPtrArr.h"\
+	"..\..\common\work\XrayM.h"\
+	".\about.h"\
+	".\Alarm.h"\
+	".\ChangeMem.h"\
+	".\clicense.h"\
+	".\Clicker.h"\
+	".\ColRect.h"\
+	".\CryptoSticky.h"\
+	".\datalog.h"\
+	".\EditDlg.h"\
+	".\FakeWin.h"\
+	".\gotoline.h"\
+	".\LogDlg.h"\
+	".\MemoSupp.h"\
+	".\Pass.h"\
+	".\PGedit.h"\
+	".\Resolv.h"\
+	".\Setup.h"\
+	".\SetupTab.h"\
+	".\Speak.h"\
+	".\statlist.h"\
+	".\TransDlg.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	".\Yellowdlg.h"\
+	".\ymemo.h"\
+	
+
+.\ymemo.cpp : \
+	"..\..\..\program files\microsoft speech sdk 5.1\include\sapi.h"\
+	"..\..\common\work\bluepoint.h"\
+	"..\..\common\work\GrayDlg.h"\
+	"..\..\common\work\label.h"\
+	"..\..\common\work\misc.h"\
+	"..\..\common\work\mxpad.h"\
+	"..\..\common\work\PersistDlg.h"\
+	"..\..\common\work\PersistInt.h"\
+	"..\..\common\work\PersistStr.h"\
+	"..\..\common\work\PlaySound.h"\
+	"..\..\common\work\Popup.h"\
+	"..\..\common\work\RecordSound.h"\
+	"..\..\common\work\soundpar.h"\
+	"..\..\common\work\Support.h"\
+	"..\..\common\work\waveEdit.h"\
+	"..\..\common\work\xPtrArr.h"\
+	"..\..\common\work\XrayM.h"\
+	"..\..\common\work\xRect.h"\
+	".\ChangeMem.h"\
+	".\Clicker.h"\
+	".\ColRect.h"\
+	".\CryptoSticky.h"\
+	".\EditDlg.h"\
+	".\FakeWin.h"\
+	".\MemoConf.h"\
+	".\MemoSupp.h"\
+	".\Pass.h"\
+	".\PGedit.h"\
+	".\Resolv.h"\
+	".\Speak.h"\
+	".\statlist.h"\
+	".\TransDlg.h"\
+	".\TrayIcon.h"\
+	".\xArchive.h"\
+	".\xButton.h"\
+	".\Yellowdlg.h"\
+	".\ymemo.h"\
+	
