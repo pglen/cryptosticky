@@ -861,7 +861,8 @@ void CEditDlg::OnTimer(UINT nIDEvent)
 		SetWindowText(_T("Loading Sticky details ..."));
 
 		LoadMemo();
-		
+		P2N(_T("memo initial '%s' "), memo.initial);
+
 		// Position to the end
 		int sum = 0, len = m_body.GetLineCount();		
 		for(int loop = 0; loop < len; loop++)
@@ -1066,8 +1067,18 @@ void CEditDlg::LoadMemo()
 
 		m_folderc.EnableWindow(false);
 	
-		if(memo.Read(file))
+		if (!memo.Read(file))
+		{
+			//TCHAR buff[128]; _tcserror_s(buff, sizeof(buff), errno);
+			CString str; str.Format(_T("Cannot open file '%s'"), file);
+				//strerror(errno));
+			AfxMessageBox(str);
+
+			return;
+		}
+		if(1)
 			{
+			
 			CString tmp(memo.initial); int idx = tmp.Find(L'\r');
 			if(idx >= 0) tmp = tmp.Left(idx);
 			datalog.PrintToLog(_T("Opened Sticky for editing '%s'\r\n"), tmp);
@@ -1111,8 +1122,9 @@ void CEditDlg::LoadMemo()
 			{
 			if(title.Mid(0, 9) != "\\Deleted\\")
 				{
-				TCHAR buff[128]; _tcserror_s(buff, sizeof(buff), errno);
-				CString str; str.Format(_T("Cannot open file for '%s' -- %s"), title, buff);
+				//TCHAR buff[128]; _tcserror_s(buff, sizeof(buff), errno);
+				CString str; str.Format(_T("Cannot open file for '%s' -- %s"), title, 
+						strerror(errno));
 				AfxMessageBox(str);
 				}
 			EndDialog(IDCANCEL);

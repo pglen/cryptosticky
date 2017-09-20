@@ -95,7 +95,7 @@ int CxArchive::Open(const TCHAR *fname, int mode, int uniflag)
 	if (contents2 != NULL)
 		free(contents2);
 
-	P2N(_T("CxArchive::Open %s\r\n"), fname);
+	//P2N(_T("CxArchive::Open %s\r\n"), fname);
 
 	if(!cfile.Open(fname, mode))
 		{
@@ -131,7 +131,7 @@ int CxArchive::Open(const TCHAR *fname, int mode, int uniflag)
 			unsigned char tbuff[3]; tbuff[0] = '\0'; tbuff[1] = '\0'; tbuff[2] = '\0';
 			int tret = cfile.Read(tbuff, 3);
 			//D2N(tbuff, 3);
-			P2N(_T("%x %x %x\r\n"), tbuff[0], tbuff[1], tbuff[2]);
+			//P2N(_T("%x %x %x\r\n"), tbuff[0], tbuff[1], tbuff[2]);
 			if ((tbuff[0] == 0xef && tbuff[1] == 0xbb && tbuff[2] == 0xbf) ||
 					(tbuff[0] == 0xff && tbuff[1] == 0xfe)
 					)
@@ -259,7 +259,7 @@ int CxArchive::ReadString(CString &str)
 			}
 		}
 
-		P2N(_T("Read multibyte '%s'"), str);
+		//P2N(_T("Read multibyte '%s'"), str);
 		ret = str.GetLength();
 	}
 	else
@@ -289,6 +289,12 @@ int CxArchive::ReadString(CString &str)
 	ret = str.GetLength();
 	//P2N(_T("CxArchive::ReadString multibyte = %d ret = %d str='%s'\r\n"), multibyte, ret, str);
 	return ret;
+}
+
+int CxArchive::Rewind()
+{
+	cfile.Seek(0, CFile::begin);
+	return 0;
 }
 
 //////////////////////////////////////////////////////////////////////////

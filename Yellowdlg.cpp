@@ -1013,21 +1013,46 @@ HTREEITEM YellowDlg::GetMemoItem(const TCHAR *fname)
 		return NULL;
 		}
 
-	// Invalid memo, log it
+	// See if it has path ...
 	if(buff[0] != '\\')  
 		{
-		datalog.PrintToLog(_T("Invalid or damaged sticky %s\r\n"), fname);	
-
-		P2N(_T("YellowDlg::GetMemoItem damaged sticky '%s'\r\n"), fname);
-		//P2N(_T("YellowDlg::GetMemoItem invalid line '%s'\r\n"), buff);
-
-		return NULL;
+		int idx = buff.Find( '\\');
+		if (idx < 0)
+		{
+			// Try re-read as ascii
+			ar.Rewind();
+			ar.multibyte = FALSE;
+			ar.ReadString(buff);
+			int idx2 = buff.Find('\\');
+			if (idx2 < 0)
+			{
+				// Invalid memo, log it
+				datalog.PrintToLog(_T("Invalid or damaged sticky, no path %s\r\n"), fname);
+				P2N(_T("YellowDlg::GetMemoItem damaged sticky, missing path '%s' '%s'\r\n"), fname, buff);
+				//P2N(_T("YellowDlg::GetMemoItem invalid line '%s'\r\n"), buff);
+				// Move away file
+				CString diro = support.GetDirName(fname);
+				CString xnameo = support.GetFilename(fname);
+				CString xexto = support.GetExtension(fname);
+				CString newnameo = diro + _T("\\broken\\") + xnameo + "." + xexto;
+				ar.Close();
+				ret =  MoveFile(fname, newnameo);
+				if(!ret)
+					P2N(_T("YellowDlg::GetMemoItem cannot rename'%s' -> '%s'\r\n"), fname, newnameo);
+				return NULL;
+				}
+			buff = buff.Mid(idx2);
+			}
+		else
+			{
+			buff = buff.Mid(idx);
+			}
 		}
 
 	// Create copy to operate on
 	CString buff2(buff);
 
-	//P2N(_T("File '%s' Initial Line:'%s'\r\n"), name, buff);
+	//P2N(_T("File '%s' Initial Line:'%s'\r\n"), fname, buff);
 
 	while(true)
 		{
@@ -1250,6 +1275,7 @@ void YellowDlg::CreateBranch(int doleaf, const TCHAR *body)
 	SetWindowPos(&wndTop, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
 
 	ShowStatus(_T("Created new Sticky"));
+
 }
 
 /////////////////////////////////////////////////////////////////////////////
@@ -1514,10 +1540,10 @@ void YellowDlg::OnRclickTree1(NMHDR* pNMHDR, LRESULT* pResult)
 	mm->LoadMenu(menu, 1);
 
 	// Add folder list to menu
-	//MenuAddFolderList(mm);
+	MenuAddFolderList(mm);
 
 	// Add network list to menu
-	//MenuAddNetList(mm);	
+	MenuAddNetList(mm);	
 	
 	POINT scr(mouse); mm->Show(scr.x, scr.y);
 	 
@@ -2062,7 +2088,8 @@ void YellowDlg::OnTimer(UINT nIDEvent)
 			}
 
 		StopScreenSaver();
-
+		m_tree.SortChildren(NULL);
+		
 		// Initiate license check timer
 		SetTimer(4, 300, NULL);
 
@@ -3087,6 +3114,12 @@ void YellowDlg::ReadAllMemos(int erase, int show, int tmptop, int force)
 		{
 			err++;
 			P2N(_T("Cannot load %s\r\n"), fname);
+			CString diro = support.GetDirName(fname);
+			CString xnameo = support.GetFilename(fname);
+			CString xexto = support.GetExtension(fname);
+			CString newnameo = diro + _T("\\broken\\") + xnameo + "." + xexto;
+			//ar.Close();
+			ret = MoveFile(fname, newnameo);
 		}
 		count++;		
 		//if(count > 5)  // just for testing
@@ -4717,7 +4750,7 @@ void	YellowDlg::MenuAddFolderList(CXrayM *mm)
 
 	if(!cnt)
 		{
-		int idx = rr->AppendMenuItem(_T("No subfolders found on this leve"), ID_RIGHT_FOLDESTICKYTO_FIRST );
+		int idx = rr->AppendMenuItem(_T("No subfolders found on this leaf"), ID_RIGHT_FOLDESTICKYTO_FIRST );
 		rr->SetItemStatus(idx, MF_GRAYED);			
 		}
 
@@ -4740,8 +4773,13 @@ void	YellowDlg::MenuAddFolderList(CXrayM *mm)
 void	YellowDlg::xAddOneFolder(CXrayM *rr, HTREEITEM h0, HTREEITEM h1, int cntt)
 
 {	
-	CString strs = m_tree.GetItemText(h1);
+	// Only add if it has children already
+	HTREEITEM cc = m_tree.GetChildItem(h1);
+	if (cc == NULL)
+		return;
 
+	CString strs = m_tree.GetItemText(h1);
+	
 	//P2N(_T("YellowDlg::xAddOneFolder '%s'\r\n"), strs);
 
 	int idx = rr->AppendMenuItem(strs, ID_RIGHT_FOLDESTICKYTO_FIRST + cntt);

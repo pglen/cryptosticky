@@ -13,15 +13,15 @@
 ;Name and file
 
   Name "CryptoSticky"
-  outfile "bin\crsetup.exe"
+  outfile "bin\crsetup2.exe"
 
   ;Default installation folder
-  InstallDir "$PROGRAMFILES\CryptoSticky"
+  InstallDir "$PROGRAMFILES\CryptoSticky2"
 
   BrandingText " CryptoSticky "
 
   ;Get installation folder from registry if available
-  InstallDirRegKey HKCU "Software\CryptoSticky" ""
+  InstallDirRegKey HKCU "Software\CryptoSticky2" ""
 
 ;--------------------------------
 ;Interface Settings
@@ -35,7 +35,7 @@
   !insertmacro MUI_PAGE_LICENSE "License.txt"
   !insertmacro MUI_PAGE_DIRECTORY
   !insertmacro MUI_PAGE_INSTFILES
-  !define 	 	MUI_FINISHPAGE_RUN $PROGRAMFILES\CryptoSticky\CryptoSticky.exe
+  !define 	 	MUI_FINISHPAGE_RUN $PROGRAMFILES\CryptoSticky2\CryptoSticky.exe
     !insertmacro MUI_PAGE_FINISH
 	
   !insertmacro MUI_PAGE_FINISH
@@ -83,8 +83,8 @@ Section "Install"
     SetOutPath "$INSTDIR"
 
     ; Add your own files here...
-    File  /oname=CryptoSticky.exe ..\release\CryptoSticky.exe
-	File  /oname=crstart.exe  ..\crstart\release\crstart.exe
+    File  /oname=CryptoSticky2.exe ..\release\CryptoSticky.exe
+	File  /oname=crstart2.exe  ..\crstart\release\crstart.exe
 	
     File  ..\wav\*.wav
 
@@ -122,57 +122,57 @@ Section "Install"
     ; ---------------------------------------------------------------------
     SetOutPath $INSTDIR
 
-    CreateDirectory $SMPROGRAMS\CryptoSticky
+    CreateDirectory $SMPROGRAMS\CryptoSticky2
 	
-    CreateShortCut "$SMPROGRAMS\CryptoSticky\CryptoSticky.lnk" "$INSTDIR\CryptoSticky.exe" "" \
+    CreateShortCut "$SMPROGRAMS\CryptoSticky2\CryptoSticky2.lnk" "$INSTDIR\CryptoSticky2.exe" "" \
                     "$INSTDIR\CryptoSticky.exe" 0  SW_SHOWNORMAL ""
 
-    ;CreateShortCut "$SMPROGRAMS\CryptoSticky\CryptoSticky.lnk" "$INSTDIR\CryptoSticky.exe" "" \
+    ;CreateShortCut "$SMPROGRAMS\CryptoSticky2\CryptoSticky.lnk" "$INSTDIR\CryptoSticky2.exe" "" \
     ;               "$INSTDIR\CryptoSticky.exe" 0  SW_SHOWNORMAL "ALT|CONTROL|S"
 
-	CreateShortCut "$SMPROGRAMS\CryptoSticky\CryptoSticky.lnk" "$INSTDIR\CryptoSticky.exe" "" \
+	CreateShortCut "$SMPROGRAMS\CryptoSticky2\CryptoSticky.lnk" "$INSTDIR\CryptoSticky2.exe" "" \
                     "$INSTDIR\CryptoSticky.exe" 0  SW_SHOWNORMAL ""
 
-	CreateShortCut "$SMPROGRAMS\CryptoSticky\Readme.lnk"      "$INSTDIR\readme.txt"
+	CreateShortCut "$SMPROGRAMS\CryptoSticky2\Readme.lnk"      "$INSTDIR\readme.txt"
 
-    CreateShortCut "$QUICKLAUNCH\CryptoSticky.lnk" "$INSTDIR\CryptoSticky.exe"
+    CreateShortCut "$QUICKLAUNCH\CryptoSticky2.lnk" "$INSTDIR\CryptoSticky2.exe"
 
-    ;CreateShortCut "$SENDTO\CryptoSticky.lnk" "$INSTDIR\CryptoSticky.exe"
+    ;CreateShortCut "$SENDTO\CryptoSticky2.lnk" "$INSTDIR\CryptoSticky.exe"
 
-    CreateShortCut "$SMPROGRAMS\CryptoSticky\CryptoSticky Web Site.lnk" "http://www.robotmonkeysoftware.com/cryptosticky/" "" \
+    CreateShortCut "$SMPROGRAMS\CryptoSticky2\CryptoSticky Web Site.lnk" "http://www.robotmonkeysoftware.com/cryptosticky/" "" \
                     "" 0  SW_SHOWNORMAL
 
     CreateShortCut "$SMPROGRAMS\CryptoSticky\HTML Documentation.lnk" "$INSTDIR\html\index.html"
 
-    CreateDirectory $SMPROGRAMS\CryptoSticky\Tools
+    CreateDirectory $SMPROGRAMS\CryptoSticky2\Tools
 	
 	CreateShortCut "$SMPROGRAMS\CryptoSticky\Tools\crstart.lnk" "$INSTDIR\crstart.exe" "" \
-                    "$INSTDIR\CryptoSticky.exe" 0  SW_SHOWNORMAL "CONTROL|ALT|S"
+                    "$INSTDIR\CryptoSticky2.exe" 0  SW_SHOWNORMAL "CONTROL|ALT|S"
 
-    CreateShortCut "$SMPROGRAMS\CryptoSticky\Tools\Uninstall.lnk" "$INSTDIR\Uninstall.exe"
-    CreateShortCut "$SMPROGRAMS\CryptoSticky\Tools\License.lnk" "$INSTDIR\License.txt"
+    CreateShortCut "$SMPROGRAMS\CryptoSticky2\Tools\Uninstall.lnk" "$INSTDIR\Uninstall.exe"
+    CreateShortCut "$SMPROGRAMS\CryptoSticky2\Tools\License.lnk" "$INSTDIR\License.txt"
     CreateShortCut "$DESKTOP\CryptoSticky.lnk" "$INSTDIR\CryptoSticky.exe"
 
 	GetFileTime    "$DESKTOP\CryptoSticky.lnk" $R0 $R1
 
     ;Store installation folder
-    WriteRegStr HKCU "Software\CryptoSticky" "" $INSTDIR
+    WriteRegStr HKCU "Software\CryptoSticky2" "" $INSTDIR
 
     ;Store installation timestamp
-    WriteRegStr HKCU "Software\CryptoSticky" "FirstRun1" $R0
-    WriteRegStr HKCU "Software\CryptoSticky" "FirstRun2" $R1
+    WriteRegStr HKCU "Software\CryptoSticky2" "FirstRun1" $R0
+    WriteRegStr HKCU "Software\CryptoSticky2" "FirstRun2" $R1
 
     ;Create uninstaller
     WriteUninstaller "$INSTDIR\Uninstall.exe"
 
     ; Create control panel unistaller
-    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky"  "DisplayName" "CryptoSticky "
-    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky"  "UninstallString" $INSTDIR\Uninstall.exe
-    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky"  "DisplayIcon" $INSTDIR\CryptoSticky.exe,0"
-    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky"  "DisplayVersion" "Version 2.0"
-    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky"  "HelpLink" "http://www.robotmonkeysoftware.com/cryptosticky/"
-    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky"  "NoMod	y" 1
-    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky"  "NoRepair" 1
+    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky2"  "DisplayName" "CryptoSticky "
+    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky2"  "UninstallString" $INSTDIR\Uninstall.exe
+    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky2"  "DisplayIcon" $INSTDIR\CryptoSticky.exe,0"
+    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky2"  "DisplayVersion" "Version 2.0"
+    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky2"  "HelpLink" "http://www.robotmonkeysoftware.com/cryptosticky/"
+    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky2"  "NoMod	y" 1
+    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky2"  "NoRepair" 1
 
 SectionEnd
 
@@ -186,11 +186,11 @@ Section "Uninstall"
     Delete "$QUICKLAUNCH\CryptoSticky.lnk"
     Delete "$DESKTOP\CryptoSticky.lnk"
 
-	DeleteRegValue	HKCU "Software\Microsoft\Windows\CurrentVersion\Run" "CryptoSticky"
+	DeleteRegValue	HKCU "Software\Microsoft\Windows\CurrentVersion\Run" "CryptoSticky2"
     DeleteRegKey 	HKCU "Software\CryptoSticky"
     DeleteRegKey 	HKCR ".CryptoSticky"
     DeleteRegKey 	HKCR "CryptoSticky.FileHandler"
-    DeleteRegKey 	HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky"
+    DeleteRegKey 	HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CryptoSticky2"
 
     RMDir /r "$SMPROGRAMS\CryptoSticky\"
     RMDir /r "$INSTDIR"

@@ -43,10 +43,11 @@ public:
 
 	int		ReadString(CString &str);
 	int		WriteString(CString &str);
+	int		Rewind();
+	int		multibyte;
 
 private:
 
-	int		multibyte;
 	int		head, tail;
 	char	*contents;
 	TCHAR	*contents2;
