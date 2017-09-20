@@ -1,4 +1,4 @@
-CryptoSticky
+#CryptoSticky
 
 Yellow notes (stickies) with alarm and encryption. In the process of portig to VC2015. 
 Most of it works, not ready for deployment.
@@ -27,5 +27,7 @@ Compile:
    VC2015  (with MFC support)
    Pull ../common/ encryption code and for bits and pieces
 
-
+   Screenshot from work in progress.
+   
+   ![Screen Shot](./images/yscreen.jpg)
 
