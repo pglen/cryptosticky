@@ -18,7 +18,7 @@
   ;Default installation folder
   InstallDir "$PROGRAMFILES\CryptoSticky2"
 
-  BrandingText " CryptoSticky "
+  BrandingText " CryptoSticky Pro "
 
   ;Get installation folder from registry if available
   InstallDirRegKey HKCU "Software\CryptoSticky2" ""
@@ -197,4 +197,5 @@ Section "Uninstall"
 
 
 SectionEnd
+
 

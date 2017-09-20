@@ -897,12 +897,12 @@ void CEditDlg::OnTimer(UINT nIDEvent)
 	CString name = AfxGetApp()->GetProfileString(_T("License"), _T("Name"), _T("DEMO"));
 	if(name == "DEMO" && daysused > DEMO_DAYS)
  		{
- 		AfxMessageBox(
- 			_T(" CryptoSticky Editing is Disabled. However, you are able to set Alarms, Encrypt, \r\n")
- 			_T("Decrypt, Copy and Paste your Existing Sticky Contents from the memo's right click menu."), MB_OK	);
+ 		//AfxMessageBox(
+ 		//	_T(" CryptoSticky Editing is Disabled. However, you are able to set Alarms, Encrypt, \r\n")
+ 		//	_T("Decrypt, Copy and Paste your Existing Sticky Contents from the memo's right click menu."), MB_OK	);
  
- 		((CWnd *)GetDlgItem(IDC_EDIT1))->EnableWindow(false);
- 		return;
+ 		//((CWnd *)GetDlgItem(IDC_EDIT1))->EnableWindow(false);
+ 		//return;
  		}
 	
  	CDialog::OnTimer(nIDEvent);

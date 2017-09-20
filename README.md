@@ -29,5 +29,5 @@ Compile:
 
    Screenshot from work in progress.
    
-   ![Screen Shot](./images/yscreen.jpg)
+   ![Screen Shot](./screen.png)
 

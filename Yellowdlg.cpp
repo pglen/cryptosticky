@@ -1200,6 +1200,7 @@ void YellowDlg::CreateBranch(int doleaf, const TCHAR *body)
 
 	if(name ==_T("DEMO") && daysused > DEMO_DAYS)
 		{
+#if 0
 		ret = AfxMessageBox(
 		_T("New Sticky Creation is disabled after the CryptoSticky evaluation period.   \r\n")
 		_T("To activate all CryptoSticky's features, Please purchase a license, \r\n")
@@ -1213,6 +1214,7 @@ void YellowDlg::CreateBranch(int doleaf, const TCHAR *body)
 			ShellExecute(NULL,_T("open"), buyURLstr, NULL, NULL, SW_SHOWMAXIMIZED);	
 			return;
 			}
+#endif
 		return;
 		}
 
@@ -2246,31 +2248,35 @@ void YellowDlg::OnTimer(UINT nIDEvent)
 		}
 
 	//////////////////////////////////////////////////////////////////////
-	else if(nIDEvent == 4)
-		{
+	else if (nIDEvent == 4)
+	{
 		KillTimer(nIDEvent);
 
-		CString name = AfxGetApp()->GetProfileString(_T("License"),_T("Name"),_T("DEMO"));
-		
-		if(name ==_T("DEMO"))
+		CString name = AfxGetApp()->GetProfileString(_T("License"), _T("Name"), _T("DEMO"));
+
+		if (name == _T("DEMO"))
+		{
+			if (daysused > DEMO_DAYS)
 			{
-			if(daysused > DEMO_DAYS)
-				{
+#if 0
 				AfxMessageBox(
-				_T("CryptoSticky Licensing: Evaluation Period expired, new Sticky creation is disabled.\r\n\r\n")
-				_T("To register CryptoSticky, please obtain a License Key from us, and then goto the 'About' dialog\r\n")
-				_T("by clicking on the 'About' button, and then click on 'Register'"));
-				}
-			else if(daysused > DEMO_DAYS - 4)
-				{
-				AfxMessageBox(_T("CryptoSticky Licensing: Less than three days left for evaluation."));
-				}
-			else if(daysused > DEMO_DAYS - 7)
-				{
-				AfxMessageBox(_T("CryptoSticky Licensing: Less than seven days left for evaluation."));
-				}
+					_T("CryptoSticky Licensing: Evaluation Period expired, new Sticky creation is disabled.\r\n\r\n")
+					_T("To register CryptoSticky, please obtain a License Key from us, and then goto the 'About' dialog\r\n")
+					_T("by clicking on the 'About' button, and then click on 'Register'"));
 			}
-		
+			else if (daysused > DEMO_DAYS - 4)
+			{
+				AfxMessageBox(_T("CryptoSticky Licensing: Less than three days left for evaluation."));
+			}
+			else if (daysused > DEMO_DAYS - 7)
+			{
+				AfxMessageBox(_T("CryptoSticky Licensing: Less than seven days left for evaluation."));
+			}
+#endif
+		}
+
+	}
+
 		if(remlst.GetCount() > 0)
 			{
 			CString tmp; 
